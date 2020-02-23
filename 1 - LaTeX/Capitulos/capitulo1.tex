@@ -1,0 +1,72 @@
+
+This work explores the optimization of hydraulic actuator dynamic stiffness through position control loop design for classical controllers. The motivation, objective, bibliographic review and organization of this document are presented in the following sections.
+
+\section{Motivation} \label{1-1-Motivation}
+
+Technological innovations in aircraft design have transformed the industry in many aspects from aerodynamics, materials and propulsion to human factors and handling. Fly-by-wire flight control systems supported many of these innovations by providing envelope protection, tailored control laws and maintainability. Most fly-by-wire systems rely on electro-hydraulic servo actuators to perform surface position control.
+
+Control surfaces are subject to aeroelastic phenomena as well as other aircraft structures, thus they need to comply with flutter requirements as to prevent conditions that may lead to a catastrophic event. Usually, flutter requirements are met by either mass balancing of the control surface or by increasing the piston area of hydraulic actuators to increase hydraulic dynamic stiffness. These traditional solutions penalize aircraft performance: surface mass balancing increases weight and larger actuator piston area increases overall actuator size and weight which implies in thicker aerodynamic profiles on stabilizers and wing. 
+
+In addition, complex products, cost reduction and short development cycles are a reality in a great number of engineering projects and to overcome these challenges it is necessary to explore alternatives that allow greater efficiency in project development. One alternative is the use of optimization algorithms that have been spreading over the industry in the last years and can be developed with a range of softwares available in the market. 
+
+Design optimization allows the improvement of products because it can investigate a vast number of solutions in much less time than conventional processes. Also, engineers are able to better understand the effects of parameters and constraints of models and use this information to make better informed decisions. 
+
+By using optimization techniques in hydraulic actuator design, it is possible to improve the dynamic stiffness response of an actuator design that previously did not satisfy safety requirements without degrading time and frequency domain performance, allowing actuator size reduction. This leads to reduced actuator weight, reduced hydraulic consumption and therefore overall weight reduction on the aircraft.
+
+\section{Bibliographic Review}
+
+This section presents a quick review of important publications regarding optimization, aircraft control and actuator design that investigated different aspects of these subjects and somehow contributed to this work. In addition, other references such as books and manuals will be presented.
+
+An algorithmic approach for robust controller design was presented by Almeida and Adade Filho (\citeyear{Almeida}). The authors used search algorithms to find H-infinity controllers that would comply with the control problem requirements. Their approach not only achieved this goal but also yielded a lower order controller compared to previous works. 
+
+Silva, Paiva and Galv\~ao (\citeyear{Silva}) investigated the use of simplex algorithm in aircraft control law design such as control and stability augmentation system (CSAS) and automatic flight control system (AFCS). The authors proposed a simple cost function that considered performance and robustness criteria. The cost function format allowed the definition of targets for each criteria in a way that when one target was reached the further improvement of this target did not reduce the cost function considerably anymore. This format proved to be useful for optimization of multiple objectives while guaranteeing a minimum acceptable value for each of them.
+
+An optimization of electrical flight control actuators was studied by Chakraborty \textit{et al.} (\citeyear{Chakraborty}). The aim was to minimize weight of two types of electric actuators: electro-hydrostatic (EHA) and electromechanical (EMA). The authors managed to use a reduced number of design variables to allow the use of gradient-based optimization. The problem constraints were actuator operational parameters such as motor stall current and winding temperature and were selected based on the most demanding flight conditions. The study presented a weight reduction in the set of actuators used in a more electric aircraft.
+
+An investigation in multi-objective optimization in engineering design was conducted by \citeonline{Andersson}. The author proposes a cost function formulation that considers multiple objectives and their relative importance and a method for selecting the design variables. Also, the study integrates different disciplines and proposes the use of the House of Quality method to identify the importance of each optimization objective. This method was applied successfully in the optimization of a landing gear system. 
+
+\citeonline{Venter} presented a broad review of optimization techniques evaluating the advantages and disadvantages of their strategies to solve optimization problems as well as explaining these strategies. The review covered techniques for global and local optimization as well as unconstrained and constrained problems.
+
+\citeonline{Constantino} developed a model of primary flight control actuation system. The model represents an active-active configuration considering two hydraulic actuators and their servo valves besides a position control loop and an aircraft control surface. The study also evaluated the behavior of oscillatory failures and indicated the need of a monitor to identify this failure modes in order to prevent the fatigue of the aircraft structure.
+
+The actuation system model was further developed by \citeonline{Ballesteros}, who introduced the variation of hydraulic fluid bulk modulus as a function of fluid temperature, pressure and percentage of entrained-air. Also, the dynamic response of the LVDT sensors was included as well as its associated measurement error. Electro-hydraulic servo valve and inlet check valve models were updated to allow use of industry catalog parameters. \citeonline{Ballesteros} also performed, a broad parametric study in order to understand the influence of classic and modern control loop topologies in the actuator performance. 
+
+The parametric study performed by \citeonline{Ballesteros} is an important source for understanding the relationship between design parameters and dynamic stiffness and will be used as the starting point for the development of the work present herein.
+
+Other important references  are mentioned below. These are books and manuals that were mainly consulted for support and clarification of the concepts involved in this work.
+
+An overview in classic and modern control systems is presented by \citeonline{Dorf}. Covered topics range from model representations, performance and stability of feedback systems and frequency response methods. \citeonline{Merritt} presents concepts in hydraulic systems, such as design, components and control.
+
+In \citeonline{Ljung} important concepts in system identification are detailed including underlying theory. Time and frequency domain identification methods are presented as well as convergence, consistency and model validation concepts. 
+
+An approach in engineering optimization is presented by \citeonline{Rao}. The book introduces basic optimization concepts and methods for solving simple problems. Additionally, advanced techniques for solving nonlinear, geometric, discrete and stochastic problems are also presented.
+
+\citeonline{Messac} introduces optimization concepts side by side with practice using MATLAB. Nevertheless, the book provides an overview in many advanced techniques including nonlinear programming and evolutionary algorithms. \nocite{OptToolbox} \nocite{IdtToolbox} 
+
+\section{Objective}
+
+The main objective of this work is to reduce the development cycle and the number of trials and rework associated with control loop tuning while complying with their performance requirements. Therefore, it is proposed an optimization approach as the solution for the presented problem.
+
+Hence, an specific objective is to develop an optimization algorithm to maximize a rudder flight control electro-hydraulic servo actuator (EHSA) dynamic stiffness response while maintaining time and frequency domain performance through the tuning of controller gains for classical control techniques.
+
+Dynamic stiffness improvement for a given actuation system compliant with stiffness requirements will increase margins for flutter suppression. Additionally, for an actuation system that is not compliant with flutter requirements, it may be possible to reach the required dynamic stiffness with the optimization algorithm's support. 
+
+That is, controller gains of actuators with reduced piston area may be optimized to increase dynamic stiffness response up to required levels, therefore, smaller actuators can meet safety and performance requirements, delivering the benefits discussed in Section \ref{1-1-Motivation}.
+
+\section{Methodology}
+
+The development of the dynamic stiffness optimization algorithm as well as the algorithmic design program was performed with MATLAB, a software environment able to support modeling and simulation of dynamic systems as well as executing programmed functions and scripts. The rudder actuation system model used in this work is the high fidelity model developed by \citeonline{Constantino} and further improved by \citeonline{Ballesteros}, who also developed routines to evaluate time, frequency and dynamic stiffness response. 
+
+\section{Organization}
+
+Chapter 1 introduces the motivation, bibliographic review, objectives and methodology of this work.
+
+Chapter 2 presents the concepts used in this work. First, the actuator dynamic stiffness is introduced as well as the reasons why it is an important specification. Next, a review of time and frequency domain performance criteria is presented along with the definition of parameters used in this work to evaluate frequency domain performance. Additionally, an identification methodology for nonlinear system is presented. The chapter also presents concepts on optimization problems, its categories and available techniques for solving them.
+
+Chapter 3 presents the architecture of the rudder surface actuation system which is the object of this study. Additionally, it provides an overview of the computational model of the rudder actuation system used to obtain the behavior of the system for each controller evaluated by the optimization algorithm.
+
+Chapter 4 provides a definition of the optimization problem solved in this work, comprising the design variables the constraints and the objective function. Further sections of this chapter detail the settings used in the optimization, the constraints of the problem and how their values are obtained by the program and finally the formulation of the objective function.
+
+Chapter 5 contains the results obtained with the developed optimization program for the evaluated classical control strategies. Furthermore, it is presented a constraint sensitivity analysis in which it is evaluated the impact of changing the constraints on the optimization results.
+
+Chapter 6 closes with conclusions and suggestions of further development.

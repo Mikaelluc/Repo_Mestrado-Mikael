@@ -1,0 +1,19 @@
+# Master Thesis Work of PUT YOUR FULL NAME HERE
+======
+
+## Advisors
+PUT THE ADVISOR NAME FROM ITA HERE
+PUT THE ADVISOR NAME FROM INDUSTRY HERE
+
+## Summary
+
+DESCRIBE THE SCOPE OF YOUR WORK HERE BASED ON WHAT WAS AGREED BETWEEN YOU, YOUR ADVISOR and YOUR CO-ADVISOR
+
+## Milestones
+Month, Day of Year - Qualification
+Month, Day of Year - Dissertation Delivered to Jury Members
+Month, Day of Year - Defense
+
+## ABSTRACT
+
+COPY N PASTE THE ABSTRACT FROM YOUR DISSERTATION HERE (WHEN AVAILABLE)

@@ -1,0 +1,241 @@
+%%% Exemplo de utilização da classe ITA
+%%%
+%%%   por        Fábio Fagundes Silveira   -  ffs [at] ita [dot] br
+%%%              Benedito C. O. Maciel     -  bcmaciel [at] ita [dot] br
+%%%              Giovani Volnei Meinertz   -  giovani [at] ita [dot] br
+%%%    	         Hudson Alberto Bode       -  bode [at] ita [dot]br
+%%%    	         P. I. Braga de Queiroz    -  pi [at] ita [dot] br
+%%%    	         Jorge A. B. Gripp         -  gripp [at] ita [dot] br
+%%%    	         Juliano Monte-Mor         -  jamontemor [at] yahoo [dot] com [dot] br
+%%%    	         Tarcisio A. B. Gripp      -  tarcisio.gripp [at] gmail [dot] com
+%%%    	         
+%%%
+%%%  IMPORTANTE: O texto contido neste exemplo nao significa absolutamente nada.  :-)
+%%%              O intuito aqui eh demonstrar os comandos criados na classe e suas
+%%%              respectivas utilizacoes.
+%%%
+%%%  Tese.tex  2015-04-08
+%%%  $HeadURL: http://www.apgita.org.br/apgita/teses-e-latex.php $
+%%%
+%%% ITALUS
+%%% Instituto Tecnológico de Aeronáutica --- ITA, Sao Jose dos Campos, Brasil
+%%%                   http://groups.yahoo.com/group/italus/
+%%% Discussion list: italus {at} yahoogroups.com
+%%%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Parametros da classe ITA para inserir em \documentclass[?]{?}
+%   tg       = Trabalho de Graduacao
+%   tgfem    = Para Engenheiras
+%   msc      = Dissertacao de Mestrado
+%   mscfem   = Para Mestras
+%   dsc      = Tese de Doutorado
+%   dscfem   = Para Doutoras
+%   quali    = Exame de Qualificacao
+%   qualifem = Exame de Qualificacao para Doutoras
+%   dv       = 'Draft Version'     --> imprime 'Versao Preliminar + data no rodape
+%   eng      = para teses em inglês
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%se fosse em inglês: \documentclass[dsc, eng]{ita}
+%para ``draft version'': \documentclass[dsc, dv]{ita} ou \documentclass[dsc, eng, dv]{ita}
+
+\documentclass[msc, eng]{ita}    % ITA.cls based on standard book.cls 
+% Quando alterar a classe, por exemplo de [msc] para [msc, eng]) rode mais uma vez o botão BUILD OUTPUT caso haja erro
+\usepackage{ae}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{subfig}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{pdflscape}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{resizegather}
+\usepackage{rotating}
+
+
+
+%\setcounter{secnumdepth}{4}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Espaçamento padrão de todo o documento
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\onehalfspacing
+
+%singlespacing Para um espaçamento simples
+%onehalfspacing Para um espaçamento de 1,5
+%doublespacing Para um espaçamento duplo
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Identificacoes (se o trabalho for em inglês, insira os dados em inglês)
+% Para entradas abreviadas de Professora (Profa.) em português escreva: Prof$^\textnormal{a}$.
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\course{Aeronautics and Mechanics Engineering} % Programa de PG ou Curso de Graduação
+\area{Aerospace Systems and Mechatronics} % Área de concentração na PG (Não utilizado no caso de TG)
+\dept{Mechanical Engineering} % Divisão Acadêmica no ITA
+
+% Autor do trabalho: Nome Sobrenome
+\authorgender{masc}                     %sexo: masc ou fem
+\author{Pedro Henrique Oliveira de}{Paula}
+\itaauthoraddress{R. Jorge Barbosa Moreira, 361, Apt. 5}{12.243-070}{São José dos Campos--SP}
+
+% Titulo da Tese/Dissertação
+\title{Dynamic stiffness optimization of a flight control actuation system using control techniques}
+%\title{Dynamic Stiffness Optimization of a Flight Control Actuation System Using Control Techniques}
+
+% Orientador
+\advisorgender{masc}                    % masc ou fem
+\advisor{Ph.D.}{Alberto Adade Filho}{ITA}
+
+% Coorientador (Caso não haja coorientador, colocar ambas as variáveis \coadvisorgender e \coadvisor comentadas, com um % na frente)
+\coadvisorgender{masc}									% masc ou fem
+\coadvisor{M.Sc.}{Raphael das Neves Calvo}{EMBRAER}
+
+% Pró-reitor da Pós-graduação
+\bossgender{masc}												% masc ou fem
+\boss{Ph.D.}{Pedro Teixeira Lacava}
+
+% Palavras-Chaves informadas pela Biblioteca -> utilizada na CIP
+\kwcip{Actuators}
+\kwcip{Optimization}
+\kwcip{Closed-loop system}
+\kwcip{Flight control}
+\kwcip{Aerodynamics}
+\kwcip{Aeronautical engineering}
+
+% membros da banca examinadora
+
+\examiner{Ph.D.}{Luiz Carlos Sandoval Góes}{President}{ITA}
+\examiner{M.Sc.}{Carlos Augusto Constantino}{External member}{EMBRAER}
+
+
+% Data da defesa (mês em maiúsculo, se trabalho em inglês, e minúsculo se trabalho em português) 
+\date{23}{FEBRUARY}{2018}
+
+% Número CDU - (somente para TG)
+%\cdu{621.38}
+
+% Glossario
+\makeglossary
+\frontmatter
+
+\begin{document}
+% Folha de Rosto e Capa para o caso do TG
+\maketitle
+
+% Dedicatoria: Nao esqueca essa secao  ... :-)
+\begin{itadedication}
+Para Larissa, Anelisa, Maria Elisa e José Antônio.
+\end{itadedication}
+
+% Agradecimentos
+\begin{itathanks}
+\input{Capa/agradecimentos}
+\end{itathanks}
+
+% Epígrafe
+\thispagestyle{empty}
+\ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigrafe}\fi
+\begin{flushright}
+\begin{spacing}{1}
+\mbox{}\vfill
+{\sffamily\itshape
+``O homem há de voar.''\\}
+--- \textsc{Alberto Santos Dumont}
+\end{spacing}
+\end{flushright}
+
+% Resumo
+\begin{abstract}
+\input{Capa/resumo}
+\end{abstract}
+
+% Abstract
+\begin{englishabstract}
+\input{Capa/abstract}
+\end{englishabstract}
+
+% Lista de figuras
+\listoffigures %opcional
+
+% Lista de tabelas
+\listoftables %opcional
+
+
+% Lista de abreviaturas
+\listofabbreviations
+\input{Capa/listaabreviaturas} %opcional
+
+% Lista de simbolos
+\listofsymbols
+\input{Capa/listasimbolos} %opcional
+
+% Sumario
+\tableofcontents
+
+\mainmatter
+% Os capitulos comecam aqui
+
+\chapter{Introduction} \label{Introduction}
+\input{Capitulos/capitulo1}
+
+\chapter{Theory Background} \label{Theory Background}
+\input{Capitulos/Capitulo2}
+
+\chapter{Actuation System Model} \label{Actuation System Model}
+\input{Capitulos/Capitulo3}
+
+\chapter{Dynamic Stiffness Optimization} \label{Dynamic Stiffness Optimization}
+\input{Capitulos/Capitulo4}
+
+\chapter{Optimization Results} \label{Optimization Results}
+\input{Capitulos/Capitulo5}
+
+\chapter{Conclusion} \label{Conclusion}
+\input{Capitulos/Conclusion}
+
+% REFERENCIAS BIBLIOGRAFICAS
+\renewcommand\bibname{\itareferencesnamebabel} %renomear título do capítulo referências
+\bibliography{Referencias/references}
+
+% Apendices
+\appendix
+\chapter{Frequency Response Test} %opcional
+\input{Capitulos/apendiceA} \label{FRAppendix}
+
+\chapter{Frequency Response of Non-Linear Systems} %opcional
+\input{Capitulos/apendiceB} \label{NLFRAppendix}
+
+% Anexos
+%\annex
+%\chapter{Aeroelastic and Safety Requirements} %opcional
+%\input{Anexos/anexoA}
+
+% Glossario
+%\itaglossary
+%\printglossary
+
+% Folha de Registro do Documento
+% Valores dos campos do formulario
+\FRDitadata{20 de março de 2018}
+\FRDitadocnro{DCTA/ITA/DP-012/2018} %(o número de registro você solicita a biblioteca)
+\FRDitaorgaointerno{Instituto Tecnológico de Aeronáutica -- ITA}
+%Exemplo no caso de pós-graduação: Instituto Tecnol{\'o}gico de Aeron{\'a}utica -- ITA
+\FRDitapalavrasautor{Atuador; Rigidez Dinâmica; Otimização}
+\FRDitapalavrasresult{Atuadores; Otimização; Sistema de circuito fechado; Controle de voo; Aerodinâmica; Engenharia aeronáutica.}
+%Exemplo no caso de graduação (TG):
+%\FRDitapalavraapresentacao{Trabalho de Graduação, ITA, São José dos Campos, 2015. \NumPenultimaPagina\ páginas.}
+%Exemplo no caso de pós-graduação (msc, dsc):
+\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Mestrado Profissional em Engenharia Aeronáutica. Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica. Área de Sistemas Aeroespaciais e Mecatrônica. Orientador: Prof. Dr. Alberto Adade Filho; coorientador: MSc. Raphael das Neves Calvo. Defesa em 06/03/2018. Publicada em 2018.}
+\FRDitaresumo{\input{Capa/abstract}}
+%  Primeiro Parametro: Nacional ou Internacional -- N/I
+%  Segundo parametro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
+\FRDitaOpcoes{I}{O}
+
+% Cria o formulario
+\itaFRD
+
+\end{document}
+% Fim do Documento. O massacre acabou!!! :-)

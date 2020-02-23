@@ -1,0 +1,73 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Notation for Aircraft Body Axes. Source: \citeonline {Etkin}\relax }}{25}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Surface stiffness components. Adapted from \citeonline {Constantino}\relax }}{26}{figure.caption.10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Step response of a control system. Source: Dorf and Bishop (\citeyear {Dorf})\relax }}{27}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Block diagram of a one degree-of-freedom feedback control system. Source: Skogestad and Postlethwaite (\citeyear {Skogestad})\relax }}{28}{figure.caption.12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Example of magnitude response of $T(j\omega )$. Adapted from Skogestad and Postlethwaite (\citeyear {Skogestad})\relax }}{32}{figure.caption.13}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Closed-loop frequency response droop and magnitude peak. Adapted from Stevens and Lewis (\citeyear {Lewis})\relax }}{32}{figure.caption.14}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces ARX Model Structure. Source: \citeonline {IdtToolbox}\relax }}{33}{figure.caption.15}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces One dimension multi-modal function. Source: \citeonline {Venter}\relax }}{42}{figure.caption.16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Actuator hydraulic schematic. Source: \citeonline {Ballesteros}\relax }}{46}{figure.caption.17}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Two-stage EHSV schematic. Source: \citeonline {Thayer}\relax }}{47}{figure.caption.18}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Actuation System and Interfaces Simulink Model\relax }}{48}{figure.caption.19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Actuation System Simulink Model\relax }}{49}{figure.caption.20}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Electronic System Simulink Model\relax }}{50}{figure.caption.21}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Digital PID Controller Model\relax }}{50}{figure.caption.22}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Actuator Simulink Model\relax }}{51}{figure.caption.23}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Actuator Valves Simulink Model\relax }}{52}{figure.caption.24}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Actuator Cylinder Simulink Model\relax }}{52}{figure.caption.25}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Actuator LVDT Sensors Simulink Model\relax }}{53}{figure.caption.26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Program Flowchart\relax }}{55}{figure.caption.27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Step Response Test Flowchart\relax }}{58}{figure.caption.31}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Fluid Density and Bulk Modulus Contribution to Step Response Actuation Rate\relax }}{59}{figure.caption.32}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Flowchart of Baseline Frequency Response Test\relax }}{61}{figure.caption.33}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 20 Hz Sine Input System Response \relax }}{63}{figure.caption.34}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 20 Hz Sine Input System Response \relax }}{63}{figure.caption.35}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Baseline and Modified Frequency Response Test Results Comparison\relax }}{65}{figure.caption.36}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Dynamic Stiffness Test Flowchart\relax }}{66}{figure.caption.38}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Baseline and Modified Dynamic Stiffness Test Comparison\relax }}{68}{figure.caption.39}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Dynamic Stiffness Comparison for Proportional Controller.\relax }}{72}{figure.caption.42}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Time Response Comparison for Proportional Controller.\relax }}{73}{figure.caption.44}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Frequency Response Comparison for Proportional Controller.\relax }}{74}{figure.caption.45}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Dynamic Stiffness Optimization Result for the PI Controller.\relax }}{75}{figure.caption.48}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Time Response Optimization Result for the PI Controller.\relax }}{76}{figure.caption.50}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Frequency Response Baseline for the PI Controller.\relax }}{77}{figure.caption.51}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Dynamic Stiffness Optimization Result for the PD Controller.\relax }}{78}{figure.caption.54}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Time Response Optimization Result for the PD Controller.\relax }}{79}{figure.caption.56}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Frequency Response Baseline for the PD Controller.\relax }}{80}{figure.caption.57}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Dynamic Stiffness Optimization Result for the PID Controller.\relax }}{81}{figure.caption.60}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Time Response Optimization Result for the PID Controller.\relax }}{82}{figure.caption.62}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Frequency Response Baseline for the PID Controller.\relax }}{83}{figure.caption.63}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Dynamic Stiffness Comparison for Proportional Controller.\relax }}{85}{figure.caption.66}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Time Response Comparison for Proportional Controller.\relax }}{86}{figure.caption.68}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Frequency Response Comparison for Proportional Controller.\relax }}{87}{figure.caption.69}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Dynamic Stiffness Optimization Result for the PI Controller.\relax }}{88}{figure.caption.72}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Time Response Optimization Result for the PI Controller.\relax }}{89}{figure.caption.74}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Frequency Response Baseline for the PI Controller.\relax }}{90}{figure.caption.75}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Dynamic Stiffness Optimization Result for the PD Controller.\relax }}{91}{figure.caption.78}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Time Response Optimization Result for the PD Controller.\relax }}{92}{figure.caption.80}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Frequency Response Baseline for the PD Controller.\relax }}{93}{figure.caption.81}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Dynamic Stiffness Optimization Result for the PID Controller.\relax }}{95}{figure.caption.84}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Time Response Optimization Result for the PID Controller.\relax }}{96}{figure.caption.86}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Frequency Response Baseline for the PID Controller.\relax }}{97}{figure.caption.87}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Optimized Dynamic Stiffness of Proportional Controller for Different Settling Time Requirements\relax }}{99}{figure.caption.89}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Chirp Signal\relax }}{106}{figure.caption.92}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Flowchart of Frequency Response Test with Chirp Signal\relax }}{107}{figure.caption.93}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Baseline and Chirp Frequency Response Test Results Comparison\relax }}{108}{figure.caption.95}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Flowchart of Frequency Response Test with ARX Identification\relax }}{109}{figure.caption.97}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Identification Signal\relax }}{110}{figure.caption.98}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Simulink Model for Baseline Frequency Response Test\relax }}{110}{figure.caption.99}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Baseline and ARX Model Identification Frequency Response Test Results Comparison\relax }}{111}{figure.caption.100}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Non-Linear and Linearized Model Frequency Response Test Results Comparison\relax }}{113}{figure.caption.102}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Baseline and Modified Frequency Response Test Results Comparison\relax }}{115}{figure.caption.104}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Actuation System and Interfaces Simulink Model\relax }}{117}{figure.caption.107}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces System Output for a 20Hz sine input signal\relax }}{118}{figure.caption.108}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces System Output for a 20Hz sine input signal\relax }}{119}{figure.caption.109}

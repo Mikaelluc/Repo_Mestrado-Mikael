@@ -1,0 +1,140 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Almeida e Filho 2011]{Almeida}
+\abntrefinfo{Almeida e Filho}{ALMEIDA; FILHO}{2011}
+{ALMEIDA, A. X.~C. de; FILHO, A.~A. Algorithmic design for a robust control
+  benchmark problem.
+\textbf{21st Brazilian Congress of Mechanical Engineering}, 2011.}
+
+\bibitem[Andersson 2001]{Andersson}
+\abntrefinfo{Andersson}{ANDERSSON}{2001}
+{ANDERSSON, J.
+\textbf{Multiobjective Optimization in Engineering Design}.
+Tese (Ph.D. in Engineering) --- Link{\"o}pings Universitet, Link{\"o}ping,
+  2001.}
+
+\bibitem[Ballesteros 2015]{Ballesteros}
+\abntrefinfo{Ballesteros}{BALLESTEROS}{2015}
+{BALLESTEROS, H. M.~S.
+\textbf{Dynamic Stiffness Enhancement of a Flight Control Actuator using
+  control techniques}.
+2015. 164~p. Thesis (M.Sc. in Engineering) --- ITA, S{\~a}o Jos{\'e} dos
+  Campos, 2015.}
+
+\bibitem[Chakraborty David~Trawick e Mavri 2013]{Chakraborty}
+\abntrefinfo{Chakraborty David~Trawick e Mavri}{CHAKRABORTY DAVID~TRAWICK;
+  MAVRI}{2013}
+{CHAKRABORTY DAVID~TRAWICK, D.~J. I.; MAVRI, D.~N. Electric control surface
+  actuator design optimization and allocation for the more electric aircraft.
+\textbf{Aviation Technology, Integration, and Operations Conference}, 2013.}
+
+\bibitem[Constantino 2010]{Constantino}
+\abntrefinfo{Constantino}{CONSTANTINO}{2010}
+{CONSTANTINO, C.~A.
+\textbf{Hydraulic Actuation System Modeling: An Analysis of High Frequency
+  Modelling}.
+2010. 121~p. Thesis (M.Sc. in Engineering) --- ITA, S{\~a}o Jos{\'e} dos
+  Campos, 2010.}
+
+\bibitem[Dorf e Bishop 2008]{Dorf}
+\abntrefinfo{Dorf e Bishop}{DORF; BISHOP}{2008}
+{DORF, R.~C.; BISHOP, R.~H. \textbf{Modern Control Systems}. 11th. ed.
+  Singapore: Prentice Hall, 2008.}
+
+\bibitem[Etkin e Reid 1995]{Etkin}
+\abntrefinfo{Etkin e Reid}{ETKIN; REID}{1995}
+{ETKIN, B.; REID, L.~D. \textbf{Dynamics of Flight: Stability and Control}.
+  3rd. ed. United States: John Wiley \& Sons, 1995.}
+
+\bibitem[Fletcher 2000]{Fletcher}
+\abntrefinfo{Fletcher}{FLETCHER}{2000}
+{FLETCHER, R. \textbf{Practical Methods of Optimization}. 2nd. ed. United
+  Kingdom: John Wiley \& Sons, 2000.}
+
+\bibitem[Ljung 1987]{Ljung}
+\abntrefinfo{Ljung}{LJUNG}{1987}
+{LJUNG, L. \textbf{System Identification: Theory for the User}. 1st. ed. United
+  States: Prentice Hall, 1987.}
+
+\bibitem[MathWorks 2015]{OptToolbox}
+\abntrefinfo{MathWorks}{MATHWORKS}{2015a}
+{MATHWORKS. \textbf{MATLAB and Optimization Toolbox Release 2017b}.
+Massachusetts, United States, 2015. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.mathworks\-.com\-/help\-/optim -
+  visited in Apr\-/2017$>$}{http://www.mathworks.com/help/optim - visited in
+  Apr/2017}.}
+
+\bibitem[MathWorks 2015]{IdtToolbox}
+\abntrefinfo{MathWorks}{MATHWORKS}{2015b}
+{MATHWORKS. \textbf{MATLAB and System Identification Toolbox Release 2017b}.
+Massachusetts, United States, 2015. Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.mathworks\-.com\-/help\-/ident -
+  visited in Aug\-/2017$>$}{http://www.mathworks.com/help/ident - visited in
+  Aug/2017}.}
+
+\bibitem[Merritt 1967]{Merritt}
+\abntrefinfo{Merritt}{MERRITT}{1967}
+{MERRITT, H.~E. \textbf{Hydraulic Control Systems}. [S.l.]: John Wiley \& Sons,
+  1967.}
+
+\bibitem[Messac 2015]{Messac}
+\abntrefinfo{Messac}{MESSAC}{2015}
+{MESSAC, A. \textbf{Optimization in Practice with
+  MATLAB\textsuperscript{\textregistered}}. 1st. ed. [S.l.]: Cambridge
+  University Press, 2015.}
+
+\bibitem[Rao 2009]{Rao}
+\abntrefinfo{Rao}{RAO}{2009}
+{RAO, S.~S. \textbf{Engineering Optimization: Theory and Practice}. 4th. ed.
+  United States: John Wiley \& Sons, 2009.}
+
+\bibitem[Shmilovitz 2005]{Doron}
+\abntrefinfo{Shmilovitz}{SHMILOVITZ}{2005}
+{SHMILOVITZ, D. On the definition of total harmonic distortion and its effect
+  on measurement interpretation.
+\textbf{IEEE Transactions on Power Delivery}, 2005.}
+
+\bibitem[Silva e ao 2009]{Silva}
+\abntrefinfo{Silva e ao}{SILVA; AO}{2009}
+{SILVA, H. M.~P. Alex S. F.~da; AO, R. K. H.~G. An optimization approach to
+  design feedback controllers for flight control systems.
+\textbf{20th International Congress of Mechanical Engineering}, 2009.}
+
+\bibitem[Skogestad e Postlethwaite 2001]{Skogestad}
+\abntrefinfo{Skogestad e Postlethwaite}{SKOGESTAD; POSTLETHWAITE}{2001}
+{SKOGESTAD, S.; POSTLETHWAITE, I. \textbf{Multivariable Feedback Control:
+  Analysis and Design}. 2nd. ed. United Kingdom: John Wiley \& Sons, 2001.}
+
+\bibitem[Stevens e Lewis 1992]{Lewis}
+\abntrefinfo{Stevens e Lewis}{STEVENS; LEWIS}{1992}
+{STEVENS, B.~L.; LEWIS, F.~L. \textbf{Aircraft Control and Simulation}. 1st.
+  ed. United States: John Wiley \& Sons, 1992.}
+
+\bibitem[THAYER 1965]{Thayer}
+\abntrefinfo{THAYER}{THAYER}{1965}
+{THAYER, W.~J. \textbf{Transfer Functions for Moog Servovalves}.
+East Aurora, 1965. (RR~95-02).}
+
+\bibitem[USAF 2008]{MIL9490}
+\abntrefinfo{USAF}{USAF}{2008}
+{USAF. \textbf{Flight Control Systems - Design, Installation and Test of
+  Piloted Aircraft, General Specification for. Military specification
+  MIL-F-9490E}.
+[S.l.], 2008.}
+
+\bibitem[Venter 2010]{Venter}
+\abntrefinfo{Venter}{VENTER}{2010}
+{VENTER, G. Review of optimization techniques.
+\textbf{Encyclopedia of Aerospace Engineering}, 2010.}
+
+\bibitem[Wright e Cooper 2007]{Wright}
+\abntrefinfo{Wright e Cooper}{WRIGHT; COOPER}{2007}
+{WRIGHT, J.; COOPER, J.~E. \textbf{Introduction to Aircraft Aeroelasticity and
+  Loads}. [S.l.]: John Wiley \& Sons, 2007.}
+
+\end{thebibliography}

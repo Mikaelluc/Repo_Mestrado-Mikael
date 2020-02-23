@@ -1,0 +1,499 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.8)  27 MAR 2017 16:46
+entering extended mode
+ %&-line parsing enabled.
+**marcos_campos.tex
+(./marcos_campos.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, portuguese, loaded.
+(./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen126
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen127
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen128
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks16
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks17
+\eqnshift@=\dimen129
+\alignsep@=\dimen130
+\tagshift@=\dimen131
+\tagwidth@=\dimen132
+\totwidth@=\dimen133
+\lineht@=\dimen134
+\@envbody=\toks18
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2009/05/18 v2.2 Customized lists
+\enit@toks=\toks20
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+\labelindent=\skip47
+\enit@outerparindent=\dimen135
+\enitdp@desc=\count106
+) (./steinmetz.sty
+Package: steinmetz 2009/06/14 v1.0 Steinmetz symbol for electrotechnics
+
+(/usr/share/texmf-texlive/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2009/08/05 v0.2x Improved picture commands (HjG,RN,JT)
+
+(/etc/texmf/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2009/08/05 v0.1s pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 101.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count107
+)
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 103.
+
+(/usr/share/texmf-texlive/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2009/08/05 v0.1s Driver-dependant file (RN,HjG,JT)
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+\pIIe@GRAPH=\toks22
+\@arclen=\dimen136
+\@arcrad=\dimen137
+\@tempdimd=\dimen138
+)
+\stm@phasebox=\box30
+\stm@phasedp=\skip48
+\stm@phaseht=\skip49
+\stm@phasetot=\skip50
+\stm@phasewd=\skip51
+)
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen139
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+) (./marcos_campos.aux)
+\openout1 = `marcos_campos.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 318.
+LaTeX Font Info:    ... okay on input line 318.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 318.
+LaTeX Font Info:    ... okay on input line 318.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 318.
+LaTeX Font Info:    ... okay on input line 318.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 318.
+LaTeX Font Info:    ... okay on input line 318.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 318.
+LaTeX Font Info:    ... okay on input line 318.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 318.
+LaTeX Font Info:    ... okay on input line 318.
+
+-- Lines per column: 56 (exact).
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen142
+\scratchbox=\box31
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen143
+\MPnumerator=\count112
+\everyMPtoPDFconversion=\toks24
+) <pics/theory/lvdt_full_eq_circ.png, id=1, 702.625pt x 515.9275pt>
+File: pics/theory/lvdt_full_eq_circ.png Graphic file (type png)
+
+<use pics/theory/lvdt_full_eq_circ.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pics/models/coil_coupling.png, id=3, 277.035pt x 294.09875pt>
+File: pics/models/coil_coupling.png Graphic file (type png)
+
+<use pics/models/coil_coupling.png> [1{/var/lib/texmf/fonts/map/pdftex/updmap/p
+dftex.map}
+
+
+ <./pics/theory/lvdt_full_eq_circ.png> <./pics/models/coil_coupling.png (PNG co
+py)>]
+Overfull \hbox (3.01488pt too wide) in paragraph at lines 500--514
+ [][] 
+ []
+
+<pics/theory/waveforms.png, id=18, 1452.42625pt x 582.175pt>
+File: pics/theory/waveforms.png Graphic file (type png)
+
+<use pics/theory/waveforms.png>
+Overfull \hbox (9.42545pt too wide) in paragraph at lines 523--524
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pics/models/adc_input_block.png, id=19, 939.51pt x 402.50375pt>
+File: pics/models/adc_input_block.png Graphic file (type png)
+
+<use pics/models/adc_input_block.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./pics/theory/waveforms.png>]
+<pics/models/harmonix.png, id=30, 895.345pt x 295.1025pt>
+File: pics/models/harmonix.png Graphic file (type png)
+
+<use pics/models/harmonix.png>
+<pics/models/gain_off_noise.png, id=31, 920.43875pt x 230.8625pt>
+File: pics/models/gain_off_noise.png Graphic file (type png)
+
+<use pics/models/gain_off_noise.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pics/models/dnl_inl_2.png, id=32, 865.634pt x 443.256pt>
+File: pics/models/dnl_inl_2.png Graphic file (type png)
+
+<use pics/models/dnl_inl_2.png>
+<pics/models/real_inl_dnl.png, id=33, 1078.0275pt x 403.5075pt>
+File: pics/models/real_inl_dnl.png Graphic file (type png)
+
+<use pics/models/real_inl_dnl.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (9.14986pt too wide) in paragraph at lines 738--747
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./pics/models/adc_input_block.png> <./pics/models/harmonix.png (PNG copy)> 
+<./pics/models/gain_off_noise.png (PNG copy)> <./pics/models/dnl_inl_2.png>]
+<pics/demodalg/actuator_and_surface.png, id=43, 1262.7175pt x 256.96pt>
+File: pics/demodalg/actuator_and_surface.png Graphic file (type png)
+
+<use pics/demodalg/actuator_and_surface.png>
+Overfull \hbox (0.53903pt too wide) in paragraph at lines 755--756
+ [][] 
+ []
+
+<pics/demodalg/peak_detection.png, id=44, 848.16875pt x 743.77875pt>
+File: pics/demodalg/peak_detection.png Graphic file (type png)
+
+<use pics/demodalg/peak_detection.png>
+<pics/demodalg/detected_peaks.png, id=45, 921.4425pt x 318.18875pt>
+File: pics/demodalg/detected_peaks.png Graphic file (type png)
+
+<use pics/demodalg/detected_peaks.png>
+Overfull \hbox (24.43488pt too wide) in paragraph at lines 788--789
+ [][] 
+ []
+
+[4 <./pics/models/real_inl_dnl.png> <./pics/demodalg/actuator_and_surface.png> 
+<./pics/demodalg/peak_detection.png> <./pics/demodalg/detected_peaks.png>]
+<pics/results/steadystate_final_zoom.png, id=53, 693.792pt x 539.616pt>
+File: pics/results/steadystate_final_zoom.png Graphic file (type png)
+
+<use pics/results/steadystate_final_zoom.png>
+<pics/results/pointvar_peakdetector.png, id=54, 695.398pt x 522.753pt>
+File: pics/results/pointvar_peakdetector.png Graphic file (type png)
+
+<use pics/results/pointvar_peakdetector.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pics/results/pointvar_oversampling.png, id=55, 697.004pt x 538.01pt>
+File: pics/results/pointvar_oversampling.png Graphic file (type png)
+
+<use pics/results/pointvar_oversampling.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.65279pt too wide) in paragraph at lines 872--880
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.65279pt too wide) in paragraph at lines 886--894
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pics/results/noisetol_peakdetector.png, id=56, 721.897pt x 491.436pt>
+File: pics/results/noisetol_peakdetector.png Graphic file (type png)
+
+<use pics/results/noisetol_peakdetector.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<pics/results/noisetol_oversampling.png, id=57, 729.124pt x 496.254pt>
+File: pics/results/noisetol_oversampling.png Graphic file (type png)
+
+<use pics/results/noisetol_oversampling.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (0.65279pt too wide) in paragraph at lines 934--942
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 4621) has occurred while \output is active []
+
+ [5 <./pics/results/steadystate_final_zoom.png> <./pics/results/pointvar_peakde
+tector.png> <./pics/results/pointvar_oversampling.png>] (./marcos_campos.bbl
+Underfull \hbox (badness 7099) in paragraph at lines 31--36
+[]\OT1/ptm/m/n/8 MathWorks. (2016) Typ-i-cal sim-scape lan-guage
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 31--36
+\OT1/ptm/m/n/8 tasks. Ac-cessed on: 2017/01/30. [On-line]. Avail-
+ []
+
+
+Overfull \hbox (7.11711pt too wide) in paragraph at lines 51--57
+\OT1/ptm/m/n/8 http://web.mit.edu/viz/EM/visualizations/coursenotes/modules/gui
+de11.pdf 
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 67--71
+[]\OT1/ptm/m/n/8 Althen. (2017) M-12 schae-vitz layer-wound lvdt.
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 67--71
+\OT1/ptm/m/n/8 Ac-cessed on: 2016/12/10. [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 74--78
+\OT1/ptm/m/n/8 [On-line]. Avail-able: http://www.activesensors.com/products/lvd
+t-
+ []
+
+)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[6 <./pics/results/noisetol_peakdetector.png> <./pics/results/noisetol_oversamp
+ling.png>] (./marcos_campos.aux) ) 
+Here is how much of TeX's memory you used:
+ 2808 strings out of 495041
+ 43304 string characters out of 1181898
+ 114190 words of memory out of 3000000
+ 5965 multiletter control sequences out of 15000+50000
+ 38594 words of font info for 75 fonts, out of 3000000 for 9000
+ 33 hyphenation exceptions out of 8191
+ 27i,17n,21p,786b,240s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/bas
+e/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
+exmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/t
+ype1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr
+8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on marcos_campos.pdf (6 pages, 698394 bytes).
+PDF statistics:
+ 128 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+

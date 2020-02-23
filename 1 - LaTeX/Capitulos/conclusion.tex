@@ -1,0 +1,40 @@
+
+In this work, an optimization program was developed to maximize actuator dynamic stiffness while complying with closed loop performance requirements. The problem was classified as a constrained non linear optimization and solved with the Interior Point algorithm.
+
+A nonlinear constraint function was defined based on time and frequency performance requirements. Due to the long execution time of the frequency response test, an investigation was conducted to find an alternative method to obtain the frequency response of the model and it is presented in the Appendix A. 
+
+The first alternative was to excite the model with a chirp signal and obtain the frequency response using function \textit{spafdr}. This option reduced the execution time by 82\% but the frequency response did not match the expected for frequencies above 7Hz. The second alternative was to identify an ARX non linear model of the actuation system and run the frequency response test in this model. In this case, the execution time was reduced by 87\% but the response matching was worse than the achieved with the chirp signal strategy.
+
+Finally, a modification was implemented in the frequency response test developed by \citeonline{Ballesteros} in which the time length of the simulations was fairly reduced. The modified test execution time is 60\% faster and the frequency response matched well the expected. This modification was also implemented in the dynamic stiffness test and similar results were achieved. The test execution time dropped 43\% while the response also matched the expected. Together, these modifications saved approximately 10 minutes of execution time per solution evaluation, resulting in total execution time savings of up to 10 hours.
+
+Two cost function were considered: the first consisted in only adding the partial cost functions at each frequency while the second considered weights for each partial function. 
+
+The optimization results obtained with the simple cost function validated the developed algorithm since overall dynamic stiffness increase was observed. However, this increase was restricted to frequencies below 4Hz while at higher frequencies the dynamic stiffness actually decreased. This result was not satisfactory since the solutions yielded by the optimization diminish flutter suppression characteristics when compared to the initial solutions.
+
+The frequency weighted cost function improved the dynamic stiffness in higher frequencies. In this case, dynamic stiffness increase at 15Hz was observed for all controllers but this increase was higher for P and PI than for PD and PID controllers.  This higher increase is related to the worse time domain performance since the settling time for these controllers was marginally violated.
+
+The optimization execution time ranged from 5 to 10 hours but could change depending on the initial solution. Despite this, the program provides a huge productivity increase since it can achieve in hours what used to spend several days of work.
+
+Therefore, the developed algorithm was capable of delivering controller designs with higher dynamic stiffness and compliant with performance requirements. The algorithm proved to be a valuable tool to assist actuator control loop design by evaluating an extensive number of solutions in much less time than an engineering team would spend.
+
+\section{Future Works}
+
+Future works of this development are either model or optimization improvements as discussed in this section.
+
+The rudder control surface dynamics can be introduced and considered in the step and frequency response tests. This modification would provide a more complete behavior of the actuation action. This dynamics does not need to be considered to obtain the dynamic stiffness since this test aims at acquiring only the actuator contribution to the surface stiffness.
+
+Additionally, the temperature effect on the hydraulic fluid viscosity can be introduced as well as the possibility to use different hydraulic fluids in the system. This feature would allow analysis on the actuation system robustness as well as simulations for specific applications.
+
+Regarding optimization improvements, the first suggestion is to expand the range of controllers the program can optimize, such as partial and full state feedback controllers. Even though these controllers are not usually required in commercial aircraft design, their cost can be justified in other applications, such as fighter aircraft, where performance and weight are much more critical.
+
+The introduction of filters in the control architecture may be considered as well. These can be feed-forward, low-pass, high-pass, band-pass or notch filters and would enable dynamic stiffness increase in specific frequencies.
+
+Global optimization techniques may be explored for control architectures with more than one design variable, such as proportional derivative and modern state feedback controllers. In this case, the solution space is vast and by starting at multiple initial solutions the program will more likely find the optimal solution.
+
+Using global optimization will greatly increase execution time, therefore, computing performance improvements should also be pursued. One way to reduce computational cost is to use alternative techniques to find frequency and dynamic stiffness response. The investigation conducted in this development showed outstanding reductions in execution time, therefore, it is worth to keep studying these alternative techniques to find one that will deliver both time savings and appropriate responses. Additionally, another way of reducing computational cost is by using parallel computing. The tests mentioned above are performed with a number of independent simulations that can run in parallel without any results drawback. 
+
+Furthermore, the optimization can be improved to contemplate not only the controller design but also the actuator design. Piston seal size can be included as an optimization variable in order to evaluate different actuator sizes. In this case, dynamic stiffness may be considered a constraint and the objective function would be the actuator hydraulic consumption. Additionally, a multi-objective optimization can be performed if the program attempts to minimize both hydraulic consumption and actuator weight.
+
+Another possibility is to modify the objective function to penalize solutions that saturate the controller output. This kind of saturation may be undesirable as it reduces control loop authority outside nominal operation. The objective function can also be modified to adjust the exponents based on the dynamic stiffness behavior when the actuator is in hydraulic shim.  
+
+Finally, a different method for obtaining the dynamic stiffness can be studied. An interesting approach is to define a methodology to use the actuator frequency response to obtain its dynamic stiffness performance or a variation of it from a baseline stiffness response.

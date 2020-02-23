@@ -1,0 +1,66 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{19}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{19}{section.1.1}
+\contentsline {section}{\numberline {1.2}Bibliographic Review}{20}{section.1.2}
+\contentsline {section}{\numberline {1.3}Objective}{22}{section.1.3}
+\contentsline {section}{\numberline {1.4}Methodology}{22}{section.1.4}
+\contentsline {section}{\numberline {1.5}Organization}{22}{section.1.5}
+\contentsline {chapter}{\numberline {2}Theory Background}{24}{chapter.2}
+\contentsline {section}{\numberline {2.1}Actuator Dynamic Stiffness}{24}{section.2.1}
+\contentsline {section}{\numberline {2.2}Control Systems Performance}{26}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}System Step Input Response}{26}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}System Frequency Response}{28}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Nonlinear ARX Models}{32}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Total Harmonic Distortion}{34}{subsubsection.2.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Actuation System Frequency Domain Requirements}{34}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Optimization Problems}{36}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Constrained vs. Unconstrained}{37}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Linear vs. Nonlinear}{37}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Discrete vs. Continuous}{38}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Deterministic vs. Nondeterministic}{38}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Single vs. Multi-objective}{38}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Single vs. Multiple Minima}{38}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.7}Simple vs. Complex}{38}{subsection.2.3.7}
+\contentsline {section}{\numberline {2.4}Optimization Techniques}{39}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Local Optimization Algorithms}{39}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Global Optimization Algorithms}{42}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Selected Algorithm}{43}{subsection.2.4.3}
+\contentsline {chapter}{\numberline {3}Actuation System Model}{46}{chapter.3}
+\contentsline {section}{\numberline {3.1}Simulink Model}{48}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Electronic System}{49}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Actuator}{51}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Surface Kinematics}{53}{subsection.3.1.3}
+\contentsline {chapter}{\numberline {4}Dynamic Stiffness Optimization}{54}{chapter.4}
+\contentsline {section}{\numberline {4.1}Problem Definition}{54}{section.4.1}
+\contentsline {section}{\numberline {4.2}Optimization Settings}{55}{section.4.2}
+\contentsline {section}{\numberline {4.3}Optimization Constraints}{56}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Step Response Test}{58}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Frequency Response Test}{60}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Modified Frequency Response Test}{62}{subsubsection.4.3.2.1}
+\contentsline {section}{\numberline {4.4}Objective Function}{66}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Dynamic Stiffness Test}{66}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Cost Function}{68}{subsection.4.4.2}
+\contentsline {chapter}{\numberline {5}Optimization Results}{71}{chapter.5}
+\contentsline {section}{\numberline {5.1}Classic Controllers and Simple Cost Function}{71}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Proportional Controller (P)}{71}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Proportional Integral Controller (PI)}{75}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Proportional Derivative Controller (PD)}{77}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Proportional Integral Derivative Controller (PID)}{81}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Classic Controllers and Frequency Weighted Cost Function}{84}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Proportional Controller (P)}{84}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Proportional Integral Controller (PI)}{88}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Proportional Derivative Controller (PD)}{90}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Proportional Integral Derivative Controller (PID)}{94}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Optimization Constraints Sensitivity}{98}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}P and PI Controllers}{98}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}PD and PID Controllers}{100}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {6}Conclusion}{101}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future Works}{102}{section.6.1}
+\contentsline {chapter}{Bibliography}{104}{chapter.7}
+\SetAppendixTocName {Appendix}
+\contentsline {chapter}{\numberline {A}Frequency Response Test}{106}{appendix.A}
+\contentsline {section}{\numberline {A.1}Chirp Input Frequency Response Test}{106}{section.A.1}
+\contentsline {section}{\numberline {A.2}ARX Identification Frequency Response Test}{109}{section.A.2}
+\contentsline {section}{\numberline {A.3}Linear Model Frequency Response Test}{112}{section.A.3}
+\contentsline {section}{\numberline {A.4}Modified Baseline Frequency Response Test}{114}{section.A.4}
+\contentsline {chapter}{\numberline {B}Frequency Response of Non-Linear Systems}{117}{appendix.B}

@@ -1,0 +1,5 @@
+Each Analysis must be associated with a subsection of your dissertation.
+Each Analysis must be associated with a unique script.
+The set of results generated for a given analysis must be stored in the folder with the same name as the dissertation's subsection and script file name.
+
+REMARKS: A script that generate a given set of results can call other scripts or functions which might support several analysis. Functions which are called within the main analyis script might be stored in a "..\Scripts\04. Support" folder.

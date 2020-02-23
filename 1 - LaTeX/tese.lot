@@ -1,0 +1,46 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Classic Controller Gain Boundaries\relax }}{56}{table.caption.28}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Stopping Criteria Parameters\relax }}{56}{table.caption.29}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Constraints Parameters\relax }}{57}{table.caption.30}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Baseline and Modified Frequency Response Test Results Comparison\relax }}{65}{table.caption.37}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Initial Solution for Classic Controllers\relax }}{71}{table.caption.40}
+\contentsline {table}{\numberline {5.2}{\ignorespaces P Controller Optimization Execution Results\relax }}{72}{table.caption.41}
+\contentsline {table}{\numberline {5.3}{\ignorespaces P Controller Final Solution Cost Function for Each Evaluated Frequency\relax }}{73}{table.caption.43}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Requirement Compliance for Proportional Controller\relax }}{74}{table.caption.46}
+\contentsline {table}{\numberline {5.5}{\ignorespaces PI Controller Optimization Execution Results\relax }}{75}{table.caption.47}
+\contentsline {table}{\numberline {5.6}{\ignorespaces PI Controller Final Solution Cost Function for Each Evaluated Frequency\relax }}{76}{table.caption.49}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Requirement Compliance for PI Controller\relax }}{77}{table.caption.52}
+\contentsline {table}{\numberline {5.8}{\ignorespaces PD Controller Optimization Execution Results\relax }}{78}{table.caption.53}
+\contentsline {table}{\numberline {5.9}{\ignorespaces PD Controller Final Solution Cost Function for Each Evaluated Frequency\relax }}{79}{table.caption.55}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Requirement Compliance for PD Controller\relax }}{80}{table.caption.58}
+\contentsline {table}{\numberline {5.11}{\ignorespaces PID Controller Optimization Execution Results\relax }}{81}{table.caption.59}
+\contentsline {table}{\numberline {5.12}{\ignorespaces PID Controller Final Solution Cost Function for Each Evaluated Frequency\relax }}{82}{table.caption.61}
+\contentsline {table}{\numberline {5.13}{\ignorespaces Requirement Compliance for PID Controller\relax }}{83}{table.caption.64}
+\contentsline {table}{\numberline {5.14}{\ignorespaces P Controller Optimization Execution Results\relax }}{85}{table.caption.65}
+\contentsline {table}{\numberline {5.15}{\ignorespaces P Controller Final Solution Cost Function for Each Evaluated Frequency\relax }}{86}{table.caption.67}
+\contentsline {table}{\numberline {5.16}{\ignorespaces Requirement Compliance for Proportional Controller\relax }}{87}{table.caption.70}
+\contentsline {table}{\numberline {5.17}{\ignorespaces PI Controller Optimization Execution Results\relax }}{88}{table.caption.71}
+\contentsline {table}{\numberline {5.18}{\ignorespaces PI Controller Final Solution Cost Function for Each Evaluated Frequency\relax }}{89}{table.caption.73}
+\contentsline {table}{\numberline {5.19}{\ignorespaces Requirement Compliance for PI Controller\relax }}{90}{table.caption.76}
+\contentsline {table}{\numberline {5.20}{\ignorespaces PD Controller Optimization Execution Results\relax }}{91}{table.caption.77}
+\contentsline {table}{\numberline {5.21}{\ignorespaces PD Controller Final Solution Cost Function for Each Evaluated Frequency\relax }}{92}{table.caption.79}
+\contentsline {table}{\numberline {5.22}{\ignorespaces Requirement Compliance for PD Controller\relax }}{94}{table.caption.82}
+\contentsline {table}{\numberline {5.23}{\ignorespaces PID Controller Optimization Execution Results\relax }}{94}{table.caption.83}
+\contentsline {table}{\numberline {5.24}{\ignorespaces PID Controller Final Solution Cost Function for Each Evaluated Frequency\relax }}{95}{table.caption.85}
+\contentsline {table}{\numberline {5.25}{\ignorespaces Requirement Compliance for PID Controller\relax }}{97}{table.caption.88}
+\contentsline {table}{\numberline {5.26}{\ignorespaces Requirement Compliance of Proportional Controller for Different Settling Time Requirements\relax }}{100}{table.caption.90}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Chirp Frequency Response Test Parameters\relax }}{107}{table.caption.94}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Baseline and Chirp Frequency Response Test Comparison\relax }}{109}{table.caption.96}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Baseline and ARX Model Identification Frequency Response Test Results Comparison\relax }}{111}{table.caption.101}
+\contentsline {table}{\numberline {A.4}{\ignorespaces Non-Linear and Linearized Model Frequency Response Comparison\relax }}{114}{table.caption.103}
+\contentsline {table}{\numberline {A.5}{\ignorespaces Baseline and Modified Frequency Response Test Results Comparison\relax }}{115}{table.caption.105}
+\contentsline {table}{\numberline {A.6}{\ignorespaces Baseline and Modified Frequency Response Test Execution Time Comparison\relax }}{116}{table.caption.106}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces THD values of a PD controller frequency response\relax }}{119}{table.caption.110}
