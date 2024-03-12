@@ -1,9 +1,9 @@
-# Master Thesis Work of PUT YOUR FULL NAME HERE
+# Master Thesis Work of Lucas Avila Silva
 ======
 
 ## Advisors
-PUT THE ADVISOR NAME FROM ITA HERE
-PUT THE ADVISOR NAME FROM INDUSTRY HERE
+Marcos Maximo
+Raphael das Neves Calvo
 
 ## Summary
 
