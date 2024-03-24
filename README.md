@@ -8,12 +8,12 @@ Raphael das Neves Calvo
 
 ## Summary
 
-DESCRIBE THE SCOPE OF YOUR WORK HERE BASED ON WHAT WAS AGREED BETWEEN YOU, YOUR ADVISOR and YOUR CO-ADVISOR
+Develop a object detection and tracking system using open source algoritms (YOLOv8 for example) and simple hardware (gimble, servomotors and comercial Dev. Boards).
 
 ## Milestones
-Month, Day of Year - Qualification
-Month, Day of Year - Dissertation Delivered to Jury Members
-Month, Day of Year - Defense
+September, 06 of 2024 - Qualification
+August, 06 of 2025 - Dissertation Delivered to Jury Members
+September, 06 of 2025 - Defense
 
 ## ABSTRACT
 
