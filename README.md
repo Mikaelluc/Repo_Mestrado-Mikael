@@ -15,7 +15,7 @@ September, 06 of 2024 - Qualification
 
 July, 13 of 2025 - Dissertation Delivered to Jury Members
 
-September, 06 of 2025 - Defense
+August, 06 of 2025 - Defense
 
 
 ## ABSTRACT
