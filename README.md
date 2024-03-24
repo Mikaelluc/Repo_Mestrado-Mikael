@@ -13,7 +13,7 @@ Develop a object detection and tracking system using open source algoritms (YOLO
 ## Milestones
 September, 06 of 2024 - Qualification
 
-August, 06 of 2025 - Dissertation Delivered to Jury Members
+July, 13 of 2025 - Dissertation Delivered to Jury Members
 
 September, 06 of 2025 - Defense
 
