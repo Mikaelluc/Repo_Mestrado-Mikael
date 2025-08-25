@@ -7,8 +7,6 @@ Marcos Maximo
 Raphael das Neves Calvo
 
 ## Summary
-
-Image-Based Gimbal Control using a Convolutional Neural Network 🚀
 This repository presents the implementation of a real-time object tracking system for a Two-Degrees-of-Freedom (2-DOF) gimbal, developed as part of a Master's thesis. The project integrates advanced computer vision with robust control engineering to maintain a target object precisely centered within a camera's field of view.
 
 Key Features & Technologies:
