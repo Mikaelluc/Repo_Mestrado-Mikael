@@ -22,17 +22,17 @@
 
 
 \NeedsTeXFormat{LaTeX2e}
-\input{cvs-id.def}
+\input{abnt/cvs-id.def}
 \CVSExtract$Id: abntex-abrev.sty,v 1.3 2003/10/13 09:41:21 gweber Exp $
 \CVSPackage{abntexabrev}{\space Abreviacoes}
 
 \RequirePackage{ifthen}
 
 \newcommand{\NoAbrevending}{\let\Abrevending\@empty}
-\input{nbr10522-1988.def}
+\input{abnt/nbr10522-1988.def}
 \newcommand{\@NBR}{@NBR@A@}
 \newcommand{\@PREF@}[1]{\csname \@NBR#1\endcsname}
-\input{abntex-abrev-pt_BR.def}
+\input{abnt/abntex-abrev-pt_BR.def}
 \ProcessOptions
 
 \newcommand{\@TR@}{@TR@}

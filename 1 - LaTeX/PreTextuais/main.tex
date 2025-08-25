@@ -1,0 +1,53 @@
+% Folha de Rosto e Capa para o caso do TG
+\maketitle
+
+% Dedicatoria: Nao esqueca essa secao  ... :-)
+\begin{itadedication}
+	
+This work is dedicated, first and foremost, to God. My deepest gratitude goes to all who, with their love, patience, and wisdom, made this dream a reality. To my beloved family, especially my parents, for their unwavering support, the profound values they instilled, and the sacrifices made so I could embark on this journey. Your love and faith were my most powerful inspiration. And to my dear fiancée, for her steadfast companionship, patience, and constant encouragement. Your love and understanding provided refuge and strength during my most challenging moments.
+
+\end{itadedication}
+
+% Agradecimentos
+\begin{itathanks}
+	\input{PreTextuais/agradecimentos}
+\end{itathanks}
+
+% Epígrafe
+\thispagestyle{empty}
+\ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigrafe}\fi
+\begin{flushright}
+	\begin{spacing}{1}
+		\mbox{}\vfill
+		\input{PreTextuais/epigrafe}
+	\end{spacing}
+\end{flushright}
+
+% Resumo
+\begin{abstract}
+	\noindent
+	\input{PreTextuais/resumo}
+\end{abstract}
+
+% Abstract
+\begin{englishabstract}
+	\noindent
+	\input{PreTextuais/abstract}
+\end{englishabstract}
+
+% Lista de figuras
+\listoffigures %opcional
+
+% Lista de tabelas
+\listoftables %opcional
+
+% Lista de abreviaturas
+\listofabbreviations
+\input{PreTextuais/listaabreviaturas} %opcional
+
+% Lista de simbolos
+\listofsymbols
+\input{PreTextuais/listasimbolos} %opcional
+
+% Sumario
+\tableofcontents

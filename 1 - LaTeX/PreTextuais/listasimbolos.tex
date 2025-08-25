@@ -1,0 +1,91 @@
+\begin{longtable}{ll}
+$A_k$ & Weight matrix \\
+$f()$ & Activation function \\
+$x^{(k)}$ & Output of the k-th layer \\
+$x$ & Neural network input \\
+$y$ & Neural network output \\
+$S(i,j)$ & Feature map \\
+$I(m,n)$ & Input image (2-D array) \\
+$K(i-m,j-n)$ & Kernel (2-D) \\
+$\nabla f(x)$ & Gradient of the function $f(x)$ \\
+$\hat{x}$ & Unit vector \\
+$\delta$ & Learning rate\\
+$E$ & Computed error in the neural network \\
+$y_0$ & Correct (expected) output of the neural network \\
+$a, b$ & Neural network weights (simplified example) \\
+$w_k^j$ & j-th component of the weight vector $w$ at the k-th iteration \\
+$w_j$ & Vector of all network weights at the j-th iteration \\
+$B_p$ & Predicted bounding box \\
+$B_{gt}$ & Ground truth bounding box \\
+$p_{interp}(r)$ & Interpolated precision at recall level $r$ \\
+$AP_i$ & Average Precision for class $i$ \\
+$x_k$ & State vector at time $k$ (Kalman Filter) \\
+$\Phi$ & State transition matrix (Kalman Filter) \\
+$w_k$ & White noise (process noise) (Kalman Filter) \\
+$z_k$ & Measurement vector at time $k$ (Kalman Filter) \\
+$H$ & Measurement matrix (Kalman Filter) \\
+$v_k$ & Measurement error (Kalman Filter) \\
+$\hat{x}_k$ & Estimated state variable (Kalman Filter) \\
+$\hat{x}_k'$ & Prior state of $\hat{x}_k$ (Kalman Filter) \\
+$K_k$ & Kalman Gain \\
+$I$ & Identity Matrix \\
+$P_k$ & Error covariance matrix (Kalman Filter) \\
+$Q$ & Covariance of $w_k$ (Kalman Filter) \\
+$R$ & Covariance of $v_k$ (Kalman Filter) \\
+$u_d^F$ & Unit vector of reference frame $F$ in direction $d$ \\
+$\eta$ & Angular position of the outer gimbal (azimuth) \\
+$\epsilon$ & Angular position of the inner gimbal (elevation) \\
+$\mathbb{T}_{F_1F_2}$ & Transformation matrix from reference frame $F_1$ to $F_2$ \\
+$\Omega_{IB}$ & Angular velocity vector of the inner gimbal relative to the base frame \\
+$\Omega_{OB}$ & Angular velocity vector of the outer gimbal relative to the base frame \\
+$\dot{\eta}$ & Angular velocity of the outer gimbal (derivative of $\eta$) \\
+$\dot{\epsilon}$ & Angular velocity of the inner gimbal (derivative of $\epsilon$) \\
+$\alpha_{IB}$ & Angular acceleration vector of the inner gimbal \\
+$\alpha_{OB}$ & Angular acceleration vector of the outer gimbal \\
+$T_{friction}$ & Total friction torque \\
+$T_{viscous}$ & Viscous friction torque \\
+$T_{coulomb}$ & Coulomb friction torque \\
+$k_{vf}$ & Viscous friction coefficient \\
+$\Omega$ & Angular velocity (general for friction) \\
+$k_{cf}$ & Coulomb friction coefficient \\
+$M_{OI}$ & Moment applied from the outer gimbal to the inner gimbal \\
+$H_{I,P}^I$ & Angular momentum of the inner gimbal about pivot point P \\
+$\mathbb{I}_{P}^{I}$ & Inertia tensor of the decoupled inner gimbal about pivot point P \\
+$I_x^I, I_y^I, I_z^I$ & Moments of inertia of the inner gimbal about x, y, z axes \\
+$\alpha_{IB_x}, \alpha_{IB_y}, \alpha_{IB_z}$ & Components of the inner gimbal's angular acceleration along x, y, z axes \\
+$\Omega_{IB_x}, \Omega_{IB_y}, \Omega_{IB_z}$ & Components of the inner gimbal's angular velocity along x, y, z axes \\
+$T_{m_I}$ & Motor torque transmitted to the inner gimbal \\
+$T_{Friction_{OI}}$ & Friction torque between the outer and inner gimbals \\
+$H_{O,P}^O$ & Angular momentum of the outer gimbal about pivot point P \\
+$\mathbb{I}_{P}^{O}$ & Inertia tensor of the decoupled outer gimbal about pivot point P \\
+$M_{BO}$ & Moment applied from the gimbal base to the outer gimbal \\
+$M_{IO}$ & Moment applied from the inner gimbal to the outer gimbal \\
+$T_{Friction_{BO}}$ & Friction torque between the base and the outer gimbal \\
+$T_{m_O}$ & Motor torque applied to the outer gimbal \\
+$I_x^O, I_y^O, I_z^O$ & Moments of inertia of the outer gimbal about x, y, z axes \\
+$u(t)$ & Applied motor voltage \\
+$R_a$ & Armature resistance of the motor \\
+$L_a$ & Armature inductance of the motor \\
+$i_a$ & Armature current of the motor \\
+$e_a$ & Counter electromotive force (back-EMF) \\
+$\omega$ & Rotational speed (of the motor) \\
+$M_c$ & Load torque (of the motor) \\
+$K_e$ & Counter electromotive force (back-EMF) constant \\
+$\dot{\theta}(t)$ & Angular velocity (derivative of angular position) \\
+$C_m$ & Motor torque constant \\
+$\Theta(s)$ & Laplace transform of angular position \\
+$T_{m_I}(s)$ & Laplace transform of motor torque (inner gimbal) \\
+$u(s)$ & Laplace transform of input voltage \\
+$s$ & Laplace operator \\
+$C(s)$ & PID controller transfer function \\
+$K_p$ & Proportional gain of PID \\
+$K_i$ & Integral gain of PID \\
+$K_d$ & Derivative gain of PID \\
+$G(s)$ & Plant transfer function \\
+$u, v$ & Pixel coordinates (2D) \\
+$x_n, y_n$ & Normalized image coordinates \\
+$K$ & Camera intrinsic matrix \\
+$f_x, f_y$ & Focal length in x and y directions \\
+$c_x, c_y$ & Principal point coordinates \\
+$x_c, y_c, z_c$ & Coordinates in the camera reference frame \\
+\end{longtable}

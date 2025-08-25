@@ -5,136 +5,269 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
-\bibitem[Almeida e Filho 2011]{Almeida}
-\abntrefinfo{Almeida e Filho}{ALMEIDA; FILHO}{2011}
-{ALMEIDA, A. X.~C. de; FILHO, A.~A. Algorithmic design for a robust control
-  benchmark problem.
-\textbf{21st Brazilian Congress of Mechanical Engineering}, 2011.}
+\bibitem[Al-E'mari \textit{et al.} 2024]{YOLOsurveillance}
+\abntrefinfo{Al-E'mari \textit{et al.}}{AL-E'MARI \textit{et al.}}{2024}
+{AL-E'MARI, S.; SANJALAWE, Y.; ALQUDAH, H. Integrating enhanced security
+  protocols with moving object detection: A yolo-based approach for real-time
+  surveillance. \textit{In}:  \textbf{2nd International Conference on Cyber
+  Resilience (ICCR)}. \textbf{Proceedings}~[...]. Dubai, United Arab Emirates:
+  IEEE, 2024. p.~1--6.}
 
-\bibitem[Andersson 2001]{Andersson}
-\abntrefinfo{Andersson}{ANDERSSON}{2001}
-{ANDERSSON, J.
-\textbf{Multiobjective Optimization in Engineering Design}.
-Tese (Ph.D. in Engineering) --- Link{\"o}pings Universitet, Link{\"o}ping,
-  2001.}
+\bibitem[Boiffier 1998]{boiffier1998dynamics}
+\abntrefinfo{Boiffier}{BOIFFIER}{1998}
+{BOIFFIER, J. \textbf{The Dynamics of Flight, The Equations}. Wiley, 1998.
+  (The Dynamics of Flight).
+ISBN 9780471942375. Available at: $
+  $https:\-/\-/books\-.google\-.com\-.br\-/books?id=us8eAQAAIAAJ$ $.}
 
-\bibitem[Ballesteros 2015]{Ballesteros}
-\abntrefinfo{Ballesteros}{BALLESTEROS}{2015}
-{BALLESTEROS, H. M.~S.
-\textbf{Dynamic Stiffness Enhancement of a Flight Control Actuator using
-  control techniques}.
-2015. 164~p. Thesis (M.Sc. in Engineering) --- ITA, S{\~a}o Jos{\'e} dos
-  Campos, 2015.}
+\bibitem[Brunton e Kutz 2022]{Brunton_Kutz_2022}
+\abntrefinfo{Brunton e Kutz}{BRUNTON; KUTZ}{2022}
+{BRUNTON, S.~L.; KUTZ, J.~N. \textbf{Data-Driven Science and Engineering:
+  Machine Learning, Dynamical Systems, and Control}. 2. ed. Cambridge, USA:
+  Cambridge University Press, 2022.}
 
-\bibitem[Chakraborty David~Trawick e Mavri 2013]{Chakraborty}
-\abntrefinfo{Chakraborty David~Trawick e Mavri}{CHAKRABORTY DAVID~TRAWICK;
-  MAVRI}{2013}
-{CHAKRABORTY DAVID~TRAWICK, D.~J. I.; MAVRI, D.~N. Electric control surface
-  actuator design optimization and allocation for the more electric aircraft.
-\textbf{Aviation Technology, Integration, and Operations Conference}, 2013.}
+\bibitem[Cunha \textit{et al.} 2019]{GimbalYOLO}
+\abntrefinfo{Cunha \textit{et al.}}{CUNHA \textit{et al.}}{2019}
+{CUNHA, R.; MALACA, M.; SAMPAIO, V.; GUERREIRO, B.; NOUSI, P.; MADEMLIS, I.;
+  TEFAS, A.; PITAS, I. Gimbal control for vision-based target tracking.
+  \textit{In}:  \textbf{EURASIP European Signal Processing Conference
+  (EUSIPCO)}. \textbf{Proceedings}~[...]. A Coruña, Spain: EUSIPCO, 2019.}
 
-\bibitem[Constantino 2010]{Constantino}
-\abntrefinfo{Constantino}{CONSTANTINO}{2010}
-{CONSTANTINO, C.~A.
-\textbf{Hydraulic Actuation System Modeling: An Analysis of High Frequency
-  Modelling}.
-2010. 121~p. Thesis (M.Sc. in Engineering) --- ITA, S{\~a}o Jos{\'e} dos
-  Campos, 2010.}
+\bibitem[Done 1999]{Done_1999}
+\abntrefinfo{Done}{DONE}{1999}
+{DONE, G. Dynamics of flight: the equations. j-l. boiffier. john wiley and
+  sons, baffins lane, chichester, west sussex p019 1ud, uk1998. 353 pp.
+  illustrated. £34.95.
+\textbf{The Aeronautical Journal}, v.~103, n.~1025, p. 358–358, 1999.}
 
-\bibitem[Dorf e Bishop 2008]{Dorf}
-\abntrefinfo{Dorf e Bishop}{DORF; BISHOP}{2008}
-{DORF, R.~C.; BISHOP, R.~H. \textbf{Modern Control Systems}. 11th. ed.
-  Singapore: Prentice Hall, 2008.}
+\bibitem[Everingham \textit{et al.} 2010]{PascalVOC}
+\abntrefinfo{Everingham \textit{et al.}}{EVERINGHAM \textit{et al.}}{2010}
+{EVERINGHAM, M.; GOOL, L. V.; WILLIAMS, C.; WINN, J.; ZISSERMAN, A. The pascal
+  visual object classes (voc) challenge.
+\textbf{International Journal of Computer Vision}, v.~88, p. 303--338, June
+  2010.}
 
-\bibitem[Etkin e Reid 1995]{Etkin}
-\abntrefinfo{Etkin e Reid}{ETKIN; REID}{1995}
-{ETKIN, B.; REID, L.~D. \textbf{Dynamics of Flight: Stability and Control}.
-  3rd. ed. United States: John Wiley \& Sons, 1995.}
+\bibitem[Galal \textit{et al.} 2009]{Galal2009Fuzzy}
+\abntrefinfo{Galal \textit{et al.}}{GALAL \textit{et al.}}{2009}
+{GALAL, M.; MIKHAIL, N.~G.; ELNASHAR, G. Fuzzy logic controller design for
+  gun-turret system. \textit{In}:  \textbf{13th International Conference on
+  Aerospace Sciences and Aviation Technology (ASAT-13)}.
+  \textbf{Proceedings}~[...]. Egypt: Military Technical College, 2009. Paper:
+  ASAT-13-CT-34.}
 
-\bibitem[Fletcher 2000]{Fletcher}
-\abntrefinfo{Fletcher}{FLETCHER}{2000}
-{FLETCHER, R. \textbf{Practical Methods of Optimization}. 2nd. ed. United
-  Kingdom: John Wiley \& Sons, 2000.}
+\bibitem[Gatimu \textit{et al.} 2020]{gatimu2020experimental}
+\abntrefinfo{Gatimu \textit{et al.}}{GATIMU \textit{et al.}}{2020}
+{GATIMU, K.; DHAMODARAN, A.; JOHNSON, T. \textit{et al.} Experimental study of
+  qoe improvements towards adaptive hd video streaming using flexible dual
+  tcp-udp streaming protocol.
+\textbf{Multimedia Systems}, v.~26, p. 479--493, 2020.}
 
-\bibitem[Ljung 1987]{Ljung}
-\abntrefinfo{Ljung}{LJUNG}{1987}
-{LJUNG, L. \textbf{System Identification: Theory for the User}. 1st. ed. United
-  States: Prentice Hall, 1987.}
+\bibitem[Girshick 2015]{7410526}
+\abntrefinfo{Girshick}{GIRSHICK}{2015}
+{GIRSHICK, R. Fast r-cnn. \textit{In}:  \textbf{IEEE International Conference
+  on Computer Vision (ICCV)}. \textbf{Proceedings}~[...]. Washington, DC: IEEE,
+  2015. p. 1440--1448.}
 
-\bibitem[MathWorks 2015]{OptToolbox}
-\abntrefinfo{MathWorks}{MATHWORKS}{2015a}
-{MATHWORKS. \textbf{MATLAB and Optimization Toolbox Release 2017b}.
-Massachusetts, United States, 2015. Dispon{\'\i}vel em:
-  \htmladdnormallink{$<$http:\-/\-/www\-.mathworks\-.com\-/help\-/optim -
-  visited in Apr\-/2017$>$}{http://www.mathworks.com/help/optim - visited in
-  Apr/2017}.}
+\bibitem[Girshick \textit{et al.} 2014]{6909475}
+\abntrefinfo{Girshick \textit{et al.}}{GIRSHICK \textit{et al.}}{2014}
+{GIRSHICK, R.; DONAHUE, J.; DARRELL, T.; MALIK, J. Rich feature hierarchies for
+  accurate object detection and semantic segmentation. \textit{In}:
+  \textbf{IEEE Conference on Computer Vision and Pattern Recognition}.
+  \textbf{Proceedings}~[...]. Columbus, Ohio: IEEE, 2014. p. 580--587.}
 
-\bibitem[MathWorks 2015]{IdtToolbox}
-\abntrefinfo{MathWorks}{MATHWORKS}{2015b}
-{MATHWORKS. \textbf{MATLAB and System Identification Toolbox Release 2017b}.
-Massachusetts, United States, 2015. Dispon{\'\i}vel em:
-  \htmladdnormallink{$<$http:\-/\-/www\-.mathworks\-.com\-/help\-/ident -
-  visited in Aug\-/2017$>$}{http://www.mathworks.com/help/ident - visited in
-  Aug/2017}.}
+\bibitem[Gonzalez e Woods 2006]{Gonzalez3}
+\abntrefinfo{Gonzalez e Woods}{GONZALEZ; WOODS}{2006}
+{GONZALEZ, R.~C.; WOODS, R.~E. \textbf{Digital Image Processing (3rd Edition)}.
+  Saddle River, New Jersey, USA: Prentice-Hall, Inc., 2006.
+ISBN 013168728X.}
 
-\bibitem[Merritt 1967]{Merritt}
-\abntrefinfo{Merritt}{MERRITT}{1967}
-{MERRITT, H.~E. \textbf{Hydraulic Control Systems}. [S.l.]: John Wiley \& Sons,
-  1967.}
+\bibitem[Goodfellow \textit{et al.} 2016]{Goodfellow-et-al-2016}
+\abntrefinfo{Goodfellow \textit{et al.}}{GOODFELLOW \textit{et al.}}{2016}
+{GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \textbf{Deep Learning}. Cambridge,
+  MA: MIT Press, 2016. \url{http://www.deeplearningbook.org}.}
 
-\bibitem[Messac 2015]{Messac}
-\abntrefinfo{Messac}{MESSAC}{2015}
-{MESSAC, A. \textbf{Optimization in Practice with
-  MATLAB\textsuperscript{\textregistered}}. 1st. ed. [S.l.]: Cambridge
-  University Press, 2015.}
+\bibitem[Grandini \textit{et al.}
+  2020]{grandini2020metricsmulticlassclassificationoverview}
+\abntrefinfo{Grandini \textit{et al.}}{GRANDINI \textit{et al.}}{2020}
+{GRANDINI, M.; BAGLI, E.; VISANI, G. \textbf{Metrics for Multi-Class
+  Classification: an Overview}. 2020.
+Available at: $ $https:\-/\-/arxiv\-.org\-/abs\-/2008\-.05756$ $.}
 
-\bibitem[Rao 2009]{Rao}
-\abntrefinfo{Rao}{RAO}{2009}
-{RAO, S.~S. \textbf{Engineering Optimization: Theory and Practice}. 4th. ed.
-  United States: John Wiley \& Sons, 2009.}
+\bibitem[Hartley e Zisserman 2004]{Hartley2004}
+\abntrefinfo{Hartley e Zisserman}{HARTLEY; ZISSERMAN}{2004}
+{HARTLEY, R.~I.; ZISSERMAN, A. \textbf{Multiple View Geometry in Computer
+  Vision}. Second. Cambridge, UK: Cambridge University Press, ISBN: 0521540518,
+  2004.}
 
-\bibitem[Shmilovitz 2005]{Doron}
-\abntrefinfo{Shmilovitz}{SHMILOVITZ}{2005}
-{SHMILOVITZ, D. On the definition of total harmonic distortion and its effect
-  on measurement interpretation.
-\textbf{IEEE Transactions on Power Delivery}, 2005.}
+\bibitem[Hubel e Wiesel 1962]{hubel1962receptive}
+\abntrefinfo{Hubel e Wiesel}{HUBEL; WIESEL}{1962}
+{HUBEL, D.; WIESEL, T. Receptive fields, binocular interaction, and functional
+  architecture in the cat's visual cortex.
+\textbf{Journal of Physiology}, v.~160, p. 106--154, 1962.}
 
-\bibitem[Silva e ao 2009]{Silva}
-\abntrefinfo{Silva e ao}{SILVA; AO}{2009}
-{SILVA, H. M.~P. Alex S. F.~da; AO, R. K. H.~G. An optimization approach to
-  design feedback controllers for flight control systems.
-\textbf{20th International Congress of Mechanical Engineering}, 2009.}
+\bibitem[Jiang \textit{et al.} 2022]{ColorImage}
+\abntrefinfo{Jiang \textit{et al.}}{JIANG \textit{et al.}}{2022}
+{JIANG, S.; QIN, S.; PULSIPHER, J.; ZAVALA, V. Convolutional neural networks:
+  Basic concepts and applications in manufacturing.
+October 2022.}
 
-\bibitem[Skogestad e Postlethwaite 2001]{Skogestad}
-\abntrefinfo{Skogestad e Postlethwaite}{SKOGESTAD; POSTLETHWAITE}{2001}
-{SKOGESTAD, S.; POSTLETHWAITE, I. \textbf{Multivariable Feedback Control:
-  Analysis and Design}. 2nd. ed. United Kingdom: John Wiley \& Sons, 2001.}
+\bibitem[Jocher \textit{et al.} 2023]{Jocher_Ultralytics_YOLO_2023}
+\abntrefinfo{Jocher \textit{et al.}}{JOCHER \textit{et al.}}{2023}
+{JOCHER, G.; CHAURASIA, A.; QIU, J. \textbf{{Ultralytics YOLO}}. January 2023.
+Available at: $ $https:\-/\-/github\-.com\-/ultralytics\-/ultralytics$ $.}
 
-\bibitem[Stevens e Lewis 1992]{Lewis}
-\abntrefinfo{Stevens e Lewis}{STEVENS; LEWIS}{1992}
-{STEVENS, B.~L.; LEWIS, F.~L. \textbf{Aircraft Control and Simulation}. 1st.
-  ed. United States: John Wiley \& Sons, 1992.}
+\bibitem[Kiesel \textit{et al.} 2022]{KIESEL2022238}
+\abntrefinfo{Kiesel \textit{et al.}}{KIESEL \textit{et al.}}{2022}
+{KIESEL, R.; JAKOB, F.; VOLLMER, T.; SCHMITT, R.~H. Evaluation of ict for
+  networked control systems of latency-critical applications in production.
+\textbf{Procedia CIRP}, v.~112, p. 238--243, 15th CIRP Conference on
+  Intelligent Computation in ManufacturingEngineering, 14-16 July 2021, 2022.
+ISSN 2212-8271.
+Available at: $
+  $https:\-/\-/www\-.sciencedirect\-.com\-/science\-/article\-/pii\-/S2212827122012410$
+  $.}
 
-\bibitem[THAYER 1965]{Thayer}
-\abntrefinfo{THAYER}{THAYER}{1965}
-{THAYER, W.~J. \textbf{Transfer Functions for Moog Servovalves}.
-East Aurora, 1965. (RR~95-02).}
+\bibitem[Kolda e Bader 2009]{Tensor}
+\abntrefinfo{Kolda e Bader}{KOLDA; BADER}{2009}
+{KOLDA, T.; BADER, B. Tensor decompositions and applications.
+\textbf{SIAM Review}, v.~51, p. 455--500, August 2009.}
 
-\bibitem[USAF 2008]{MIL9490}
-\abntrefinfo{USAF}{USAF}{2008}
-{USAF. \textbf{Flight Control Systems - Design, Installation and Test of
-  Piloted Aircraft, General Specification for. Military specification
-  MIL-F-9490E}.
-[S.l.], 2008.}
+\bibitem[Lacey 1998]{Lacey1998TutorialTK}
+\abntrefinfo{Lacey}{LACEY}{1998}
+{LACEY, T. Tutorial: the kalman filter 11.1 introduction 11.2 mean squared
+  error. \textit{In}:  . \textbf{Proceedings}~[...]. Cambridge, MA: MIT, 1998.
+  Accessed on August 5, 2024. Available at: $
+  $https:\-/\-/api\-.semanticscholar\-.org\-/CorpusID:48574040$ $.}
 
-\bibitem[Venter 2010]{Venter}
-\abntrefinfo{Venter}{VENTER}{2010}
-{VENTER, G. Review of optimization techniques.
-\textbf{Encyclopedia of Aerospace Engineering}, 2010.}
+\bibitem[Lin \textit{et al.} 2015]{lin2015microsoftcococommonobjects}
+\abntrefinfo{Lin \textit{et al.}}{LIN \textit{et al.}}{2015}
+{LIN, T.-Y.; MAIRE, M.; BELONGIE, S.; BOURDEV, L.; GIRSHICK, R.; HAYS, J.;
+  PERONA, P.; RAMANAN, D.; ZITNICK, C.~L.; DOLLáR, P. \textbf{Microsoft COCO:
+  Common Objects in Context}. 2015.
+Available at: $ $https:\-/\-/arxiv\-.org\-/abs\-/1405\-.0312$ $.}
 
-\bibitem[Wright e Cooper 2007]{Wright}
-\abntrefinfo{Wright e Cooper}{WRIGHT; COOPER}{2007}
-{WRIGHT, J.; COOPER, J.~E. \textbf{Introduction to Aircraft Aeroelasticity and
-  Loads}. [S.l.]: John Wiley \& Sons, 2007.}
+\bibitem[Liu \textit{et al.} 2016]{Liu_2016}
+\abntrefinfo{Liu \textit{et al.}}{LIU \textit{et al.}}{2016}
+{LIU, W.; ANGUELOV, D.; ERHAN, D.; SZEGEDY, C.; REED, S.; FU, C.-Y.; BERG,
+  A.~C. Ssd: Single shot multibox detector.
+\textit{In}:  \underline{\ \ \ \ \ \ \ \ }. \textbf{Computer Vision - ECCV}.
+  Amsterdam, NL: Springer International Publishing, 2016. p. 21--37.
+ISBN 9783319464480.}
+
+\bibitem[Mane e Mangale 2018]{Mane}
+\abntrefinfo{Mane e Mangale}{MANE; MANGALE}{2018}
+{MANE, S.; MANGALE, S. Moving object detection and tracking using convolutional
+  neural networks. \textit{In}:  \textbf{Second International Conference on
+  Intelligent Computing and Control Systems (ICICCS)}.
+  \textbf{Proceedings}~[...]. Madurai, India: ICICCS, 2018. p. 1809--1813.
+  June.}
+
+\bibitem[Mitchell 1997]{Mitchell}
+\abntrefinfo{Mitchell}{MITCHELL}{1997}
+{MITCHELL, T. \textbf{Machine Learning}. McGraw-Hill, 1997.  (McGraw-Hill
+  International Editions).
+ISBN 9780071154673. Available at: $
+  $https:\-/\-/books\-.google\-.com\-.br\-/books?id=EoYBngEACAAJ$ $.}
+
+\bibitem[Murphy 2012]{Murphy-2012}
+\abntrefinfo{Murphy}{MURPHY}{2012}
+{MURPHY, K.~P. \textbf{Machine Learning: A Probabilistic Perspective}.
+  Massachusets, USA: The MIT Press, 2012.
+ISBN 0262018020.}
+
+\bibitem[Padilla \textit{et al.} 2020]{9145130}
+\abntrefinfo{Padilla \textit{et al.}}{PADILLA \textit{et al.}}{2020}
+{PADILLA, R.; NETTO, S.~L.; SILVA, E. A.~B. da. A survey on performance metrics
+  for object-detection algorithms. \textit{In}:  \textbf{International
+  Conference on Systems, Signals and Image Processing (IWSSIP)}.
+  \textbf{Proceedings}~[...]. Niter\'oi, BR: IEEE, 2020. p. 237--242.}
+
+\bibitem[Poyrazoğlu 2017]{poyrazoglu_2017}
+\abntrefinfo{Poyrazoğlu}{POYRAZOğLU}{2017}
+{POYRAZOğLU, E.
+\textbf{Detailed modeling and control of a 2-DOF gimbal system}.
+Dissertation (Mestrado) --- Middle East Technical University, 2017.}
+
+\bibitem[Rahmat \textit{et al.} 2016]{Rahmat2016Sliding}
+\abntrefinfo{Rahmat \textit{et al.}}{RAHMAT \textit{et al.}}{2016}
+{RAHMAT, M.~S.; HUDHA, K.; IDRIS, A.~C.; AMER, N.~H. Sliding mode control of
+  target tracking system for two degree of freedom gun turret model.
+\textbf{Advances in Military Technology}, v.~11, n.~1, p. 13--28, 2016.
+Available at: $
+  $https:\-/\-/www\-.aimt\-.cz\-/index\-.php\-/aimt\-/article\-/view\-/1087$
+  $.}
+
+\bibitem[Ramírez 2016]{espinosa2016diseno}
+\abntrefinfo{Ramírez}{RAMíREZ}{2016}
+{RAMíREZ, C.~I. E.
+\textbf{Dise{\~n}o e Implementaci{\~o}n del Control de un Gimbal de Dos Grados
+  de Libertad}.
+Dissertation (Mestrado) --- Centro de Investigaci{\~o}n y de Estudios Avanzados
+  del Instituto Polit{\'e}cnico Nacional, 2016.}
+
+\bibitem[Redmon \textit{et al.} 2016]{YOLO}
+\abntrefinfo{Redmon \textit{et al.}}{REDMON \textit{et al.}}{2016}
+{REDMON, J.; DIVVALA, S.; GIRSHICK, R.; FARHADI, A. You only look once:
+  Unified, real-time object detection. \textit{In}:  \textbf{IEEE Conference on
+  Computer Vision and Pattern Recognition (CVPR)}. \textbf{Proceedings}~[...].
+  Las Vegas, NV, USA: IEEE, 2016. p. 779--788.}
+
+\bibitem[Ren \textit{et al.} 2017]{7485869}
+\abntrefinfo{Ren \textit{et al.}}{REN \textit{et al.}}{2017}
+{REN, S.; HE, K.; GIRSHICK, R.; SUN, J. Faster r-cnn: Towards real-time object
+  detection with region proposal networks.
+\textbf{IEEE Transactions on Pattern Analysis and Machine Intelligence}, v.~39,
+  n.~6, p. 1137--1149, 2017.}
+
+\bibitem[Rue 1969]{Gimbalmodel}
+\abntrefinfo{Rue}{RUE}{1969}
+{RUE, A.~K. Stabilization of precision electrooptical pointing and tracking
+  systems.
+\textbf{IEEE Transactions on Aerospace and Electronic Systems}, AES-5, n.~5, p.
+  805--819, 1969.}
+
+\bibitem[Tong \textit{et al.} 2020]{TONG2020105312}
+\abntrefinfo{Tong \textit{et al.}}{TONG \textit{et al.}}{2020}
+{TONG, W.; XIANG, B.; WONG, W. Gimbal torque and coupling torque of six degrees
+  of freedom magnetically suspended yaw gimbal.
+\textbf{International Journal of Mechanical Sciences}, ELSEVIER, UK, v.~168, p.
+  105312, 2020.
+ISSN 0020-7403.
+Available at: $
+  $https:\-/\-/www\-.sciencedirect\-.com\-/science\-/article\-/pii\-/S0020740319314456$
+  $.}
+
+\bibitem[Ultralytics. 2024]{YOLOTraining}
+\abntrefinfo{Ultralytics.}{ULTRALYTICS.}{2024}
+{ULTRALYTICS. \textbf{Model Training with Ultralytics YOLO}. 2024.
+Accessed on June 10, 2024.
+Available at: $ $https:\-/\-/docs\-.ultralytics\-.com\-/modes\-/train\-/$ $.}
+
+\bibitem[Vinaykumar e Jatoth 2014]{Kalmanxalpha}
+\abntrefinfo{Vinaykumar e Jatoth}{VINAYKUMAR; JATOTH}{2014}
+{VINAYKUMAR, M.; JATOTH, R.~K. Performance evaluation of alpha-beta and kalman
+  filter for object tracking. \textit{In}:  \textbf{IEEE International
+  Conference on Advanced Communications, Control and Computing Technologies}.
+  \textbf{Proceedings}~[...]. Ramanathapuram, India: IEEE, 2014. p.
+  1369--1373.}
+
+\bibitem[Yingge \textit{et al.} 2020]{poolinglayer}
+\abntrefinfo{Yingge \textit{et al.}}{YINGGE \textit{et al.}}{2020}
+{YINGGE, H.; ALI, I.; LEE, K.-Y. Deep neural networks on chip - a survey.
+  \textit{In}:  . \textbf{Proceedings}~[...]. Busan, Korea (South): IEEE, 2020.
+  p. 589--592.}
+
+\bibitem[Zhou \textit{et al.} 2018]{servomotorarticle}
+\abntrefinfo{Zhou \textit{et al.}}{ZHOU \textit{et al.}}{2018}
+{ZHOU, L.; CHENG, L.; PAN, C.; JIANG, Z. Generalized extended state observer
+  based speed control for dc motor servo system. \textit{In}:  .
+  \textbf{Proceedings}~[...]. Wuhan, China: IEEE, 2018. p. 221--226.}
+
+\bibitem[Zhu \textit{et al.} 2022]{VisDrone}
+\abntrefinfo{Zhu \textit{et al.}}{ZHU \textit{et al.}}{2022}
+{ZHU, P.; WEN, L.; DU, D.; BIAN, X.; FAN, H.; HU, Q.; LING, H. Detection and
+  tracking meet drones challenge.
+\textbf{IEEE Transactions on Pattern Analysis and Machine Intelligence}, v.~44,
+  n.~11, p. 7380--7399, November 2022.}
 
 \end{thebibliography}

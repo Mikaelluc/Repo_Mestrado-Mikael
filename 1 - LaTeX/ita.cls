@@ -40,6 +40,8 @@
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{ita}[2006/03/10 v2.0 Classe de documento com padrões do ITA]
 
+\newcommand{\itaclassfile}[1]{ita/#1}
+
 % % --------------------------------------------------------------------
 % %  Verificação se alvo será gerado pelo PDFLaTeX ou não
 % % --------------------------------------------------------------------
@@ -56,39 +58,39 @@
 %%% Declaracao das opcoes
 %==============================================================================
 \DeclareOption{defaults}{
-  \input{defaults.def}
+  \input{\itaclassfile{defaults.def}}
 }
 % Graduação (TG)
 \DeclareOption{tg}{
-  \input{tg.def}
+  \input{\itaclassfile{tg.def}}
 }
 % Engenheira (TG)
 \DeclareOption{tgfem}{
-  \input{tgfem.def}
+  \input{\itaclassfile{tgfem.def}}
 }
 % Mestrado
 \DeclareOption{msc}{
-  \input{msc.def}
+  \input{\itaclassfile{msc.def}}
 }
 % Mestra
 \DeclareOption{mscfem}{
-  \input{mscfem.def}
+  \input{\itaclassfile{mscfem.def}}
 }
 % Doutorado
 \DeclareOption{dsc}{
-  \input{dsc.def}  
+  \input{\itaclassfile{dsc.def}}
 }
 % Doutora
 \DeclareOption{dscfem}{
-  \input{dscfem.def}
+  \input{\itaclassfile{dscfem.def}}
 }
 % Exame de Qualificacao
 \DeclareOption{quali}{
-  \input{quali.def}  
+  \input{\itaclassfile{quali.def}}
 }
 % Exame de Qualificacao para Doutora
 \DeclareOption{qualifem}{
-  \input{qualifem.def}  
+  \input{\itaclassfile{qualifem.def}}
 }
 % Versao em ingles
 \newif\if@eng
@@ -118,8 +120,8 @@
 \AtEndOfPackage{
     \renewcommand{\baselinestretch}{\itaspacing}
 }
- 
-  
+
+
 %==============================================================================
 %%% Heranca e Pacotes ...
 %==============================================================================
@@ -134,19 +136,19 @@
 \fi
 
  \if@eng
-   \input{itaeng.babel}
+   \input{\itaclassfile{itaeng.babel}}
  \else
-   \input{itabr.babel}
+   \input{\itaclassfile{itabr.babel}}
  \fi
 
-\RequirePackage[latin1]{inputenc}
+\RequirePackage[latin1,utf8]{inputenc} % latin -> utf . Modification to use idiomatic ascents directly: âáìõ
 \RequirePackage{setspace}
 \RequirePackage{fancyhdr}
 \RequirePackage{amsfonts}                 % Fontes p/ conjuntos: R,Z,H,...
 \RequirePackage{lastpage}
 \RequirePackage{indentfirst}
 %ajustando fonte das legendas. Se quiser aumentar um pouco as legendas, troque footnotesize por small
-%\RequirePackage[labelsep=endash,font=footnotesize]{caption}
+\RequirePackage[labelsep=endash,font=footnotesize]{caption}
 \RequirePackage[labelsep=endash]{caption}
 \RequirePackage{longtable}
 \RequirePackage{array}
@@ -171,7 +173,7 @@
 %\RequirePackage[debug,a4paper,pagebackref=true,breaklinks,bookmarksopen=true,colorlinks=true,linkcolor=bblue,citecolor=bblue,urlcolor=bblue,bookmarksnumbered=true,hyperindex=true,verbose=true]{hyperref} %% essencial %% gera pdf/dvi com links
 
 %% LINKS ALTERADOS PARA COR PRETA
-\RequirePackage[debug,a4paper,pagebackref=true,breaklinks,bookmarksopen=true,colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black,bookmarksnumbered=true,hyperindex=true,verbose=true]{hyperref} 
+\RequirePackage[debug,a4paper,pagebackref=true,breaklinks,bookmarksopen=true,colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black,bookmarksnumbered=true,hyperindex=true,verbose=true]{hyperref}
 %==============================================================================
 
 \ifpdf
@@ -193,7 +195,6 @@
 %==============================================================================
 %%% ABNTeX ...
 \RequirePackage[alf,abnt-emphasize=bf,abnt-etal-cite=2,abnt-etal-list=0,abnt-etal-text=it]{abntcite}
-%\RequirePackage[alf,abnt-emphasize=bf,abnt-etal-cite=2,abnt-etal-list=0,abnt-etal-text=it]{abntex2cite}
 %\RequirePackage{natbib}
 
 %==============================================================================
@@ -202,11 +203,11 @@
 %\titleformat{\section}
 % {\large\bfseries}{\thesection}{0.5em}{}
 %\titleformat{\subsection}
-% {\normalsize\bfseries}{\thesubsection}{0.5em}{}	
+% {\normalsize\bfseries}{\thesubsection}{0.5em}{}
 %\titleformat{\subsubsection}
-% {\normalsize\bfseries}{\thesubsubsection}{0.5em}{}	
+% {\normalsize\bfseries}{\thesubsubsection}{0.5em}{}
 %\titleformat{\paragraph} % para 4o nivel
-% {\normalsize\bfseries}{\theparagraph}{0.5em}{}	
+% {\normalsize\bfseries}{\theparagraph}{0.5em}{}
 
 %==============================================================================
 % Redefinição da data (para ter dia, mês e ano separados)
@@ -266,13 +267,9 @@
   \renewcommand{\itabosscourseword}{#1}
   \gdef\@bosscourse {#2~#3 \\ #1}
 }
-% Curso de Graduação/Pós-Graduação...
+% Curso de Graduação/Programa de Pós-Graduação...
 \newcommand{\course}[1]{
   \renewcommand{\itaworkcourse}{#1}
-}
-% Programa de Pos-Graduacao...
-\newcommand{\dept}[1]{
-  \renewcommand{\itaworkdept}{#1}
 }
 % Area do Curso...
 \newcommand{\area}[1]{
@@ -312,7 +309,7 @@
       \ifthenelse{\equal{\itaoptionlevel}{tg}}
 							{\maketgcover}
 							{}
-						
+
 			\pdfbookmark[0]{\nametitlepage}{titulo}
       % verifica se eh uma tese ou um exame de qualificacao
       \ifthenelse{\equal{\itaoptionlevel}{quali}}
@@ -326,7 +323,7 @@
    \ifthenelse{\equal{\itaoptionlevel}{quali}}
               {\setcounter{page}{2}}
 							{\setcounter{page}{4}}
-							
+
 }
 
 %==============================================================================
@@ -387,7 +384,7 @@
 			S\~{a}o Jos\'{e} dos Campos, \@publmonth\ de \@publyear
 			\end{spacing}
 	 \fi
-   
+
 }
 
 %==============================================================================
@@ -433,7 +430,7 @@
   }
 
    \vspace*{\stretch{3}}
-	 
+
    \itaformatauthorname{\MakeUppercase{\textbf{\itaworkcourse}}}
 
    \vspace*{\stretch{2}}
@@ -441,10 +438,10 @@
    \vspace*{\stretch{2}}
 
    \begin{spacing}{1.0}
-   \textsc{\Large{S}\large{\~{a}o} \Large{J}\large{os\'{e}} dos \Large{C}\large{ampos}} \\ \textsc{\Large{i}\large{nstituto}{} \Large{t}\large{ecnol\'{o}gico}{} de \Large{a}\large{eron\'{a}utica}{}} 
-	 
+   \textsc{\Large{S}\large{\~{a}o} \Large{J}\large{os\'{e}} dos \Large{C}\large{ampos}} \\ \textsc{\Large{i}\large{nstituto}{} \Large{t}\large{ecnol\'{o}gico}{} de \Large{a}\large{eron\'{a}utica}{}}
+
 	 \vspace*{\stretch{2}}
-	
+
 	 \@publyear
    \end{spacing}
 
@@ -504,7 +501,7 @@
    \vspace*{\stretch{2}}
 
    \begin{spacing}{1.5}
-       \@boss
+       %\@boss
    \end{spacing}
 
    \vspace*{\stretch{2}}
@@ -528,37 +525,37 @@
   %\framebox[\textwidth]{%
   %\fbox{\fbox{
   %\parbox{\textwidth}{
-  
+
 	\hspace{-0.8cm}\fbox{\parbox[c][660pt][c]{\textwidth}{
-  \centering        
-				
+  \centering
+
   \itaformatworktitle{\MakeUppercase{instituto tecnol\'{o}gico de aeron\'{a}utica}}
 
   \vspace*{\stretch{2}}
 
-  \includegraphics[width=0.5\textwidth]{Cap0/ita_logo}
+  \includegraphics[width=0.5\textwidth]{\itaclassfile{ita_logo.jpg}}
 
 	\vspace*{\stretch{2}}
 
   \itaformatauthorname{\@authorfirst\ \@authorlast}
-	
+
 	\vspace*{\stretch{1}}
-	
+
 	\begin{spacing}{1.0}
   \itaformatworktitle{\MakeUppercase{\@title}}
   \end{spacing}
-	
+
 	\vspace*{\stretch{3}}
-	
+
 	\begin{spacing}{1.0}
   \Large{\finalpaper \\
 	\@publyear}
   \end{spacing}
-	
+
 	\vspace*{\stretch{2}}
-	
+
 	\Huge{\textbf{\courseof\ \itaworkcourse}}
-	
+
 	\vspace*{\stretch{1}}
 	\vfill
 	} }
@@ -577,7 +574,7 @@
 		\begin{onehalfspacing}
  		{\setlength{\baselineskip}{0.8\baselineskip}
 		  \textbf{\itaciptitlebabel} \\
-		  \textbf{\itacipbibbabel}\\}		
+		  \textbf{\itacipbibbabel}\\}
 		\@cipwindow
 		\@bibref
 		\@rights
@@ -608,7 +605,7 @@
 				      \vspace{0.4ex}
       \end{onehalfspacing}
      \end{footnotesize}
-	   
+
 	   \end{flushleft}
         \end{minipage}%
         }%
@@ -616,7 +613,7 @@
 
 % Referencia Bibliografica
 \def\@bibref{%
-			 
+
        \vspace*{\stretch{2}}
        \normalsize
           \textbf{\itarefbibnamecipbabel} \par
@@ -659,7 +656,7 @@
    \thispagestyle{empty}
 
    \noindent
-   
+
 	 \ifthenelse{\equal{\itaoptionlevel}{tg}}
 	     {
 			 \begin{spacing}{1.0}
@@ -668,46 +665,46 @@
          \vfill
          \small{\itathesisapprovedmemberstg}
 				 \vspace*{\stretch{3}}
-			 		 
+
 			 	 \hspace{3cm}\hrulefill\hspace{3cm}
-				 \par 
+				 \par
 				 \small{\@authorfirst\ \@authorlast
 				 \par
 				 \@authorword\ifthenelse{\equal{\authorgendermf}{masc}}{}{\if@eng \else a\fi}}
 				 \vspace*{\stretch{1}}
-			 		 
+
 			 	 \hspace{3cm}\hrulefill\hspace{3cm}
-				 \par 
+				 \par
 				 \small{\itaadvisorname\ (\@itaadvisorinst )
 				 \par
 				 \itaadvisorwordbabelll}
          \vspace*{\stretch{1}}
-			 		
+
 				 \@ifundefined{@coadvisor}{}{      % Co-advisor eh opcional
 			 	 \hspace{3cm}\hrulefill\hspace{3cm}
-				 \par 
+				 \par
 				 \small{\@itacoadvisorname\ (\@itacoadvisorinst )
 				 \par
 				 \itacoadvisorwordbabelll}
 				 \vspace*{\stretch{1}}
 				 }
-				
+
 			 	 \hspace{3cm}\hrulefill\hspace{3cm}
-				 \par 
+				 \par
 				 \small{\@bosscourse}
 				 \vspace*{\stretch{2}}
-				
+
 				 \if@eng
 						\small{S{\~a}o Jos{\'e} dos Campos: \@publmonth\ \@publday, \@publyear.}
 				 \else
 						\small{S{\~a}o Jos{\'e} dos Campos, \@publday\ de \@publmonth\ de \@publyear.}
 				 \fi
-				
+
 			 \end{center}
 			 \end{spacing}
-			 
-			 } 
-	     {	
+
+			 }
+	     {
 	     \begin{spacing}{1.0}
        \begin{center}
          \itaformatworktitle{\MakeUppercase{\@title}}
@@ -715,12 +712,12 @@
          \itaformatauthorname{\@authorfirst\ \@authorlast}
 				 \vfill
 			 \end{center}
-			
+
 			 \raggedright{\normalsize{\namepageexaminers}}
        \vfill
-    
+
        \raggedright\@memberslist
-        
+
        \end{spacing}
        \vfill
        \center
@@ -795,8 +792,8 @@
       \addcontentsline{toc}{chapter}{\bibname}   % Thanks to D.Farfan
       \@mkboth{\MakeUppercase{\bibname}}%
               {\MakeUppercase{\bibname}}}%       % Thanks to ffs :-)
-      \singlespacing			
-			\flushleft				
+      \singlespacing
+			\flushleft
 			\list{\@biblabel{\@arabic\c@enumiv}}%
            {\settowidth\labelwidth{\@biblabel{#1}}%
             \leftmargin\labelwidth
@@ -815,23 +812,7 @@
        {\@latex@warning{Empty `thebibliography' environment}}%
       \endlist}
 
-% Lista de figuras...
-\renewcommand\listoffigures{%
-    %\begin{spacing}{1.5}   %ita
-    \if@twocolumn
-      \@restonecoltrue\onecolumn
-    \else
-      \@restonecolfalse
-    \fi
-    \chapter*{\listfigurename
-      \@mkboth{\MakeUppercase{\listfigurename}}%
-              {\MakeUppercase{\listfigurename}}}      % Thanks to Reinaldo Fortes
-    %\addcontentsline{toc}{chapter}{\listfigurename}   % Thanks to D.Farfan
-		\pdfbookmark[0]{\listfigurename}{listafiguras}
-    \@starttoc{lof}%
-    \if@restonecol\twocolumn\fi
-    %\end{spacing}   %ita
-    }
+
 
 % Lista de tabelas...
 \renewcommand\listoftables{%
@@ -867,6 +848,23 @@
     \if@restonecol\twocolumn\fi
     %\end{spacing}   %ita
     }
+% Lista de figuras...
+\renewcommand\listoffigures{%
+    %\begin{spacing}{1.5}   %ita
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\listfigurename
+      \@mkboth{\MakeUppercase{\listfigurename}}%
+              {\MakeUppercase{\listfigurename}}}      % Thanks to Reinaldo Fortes
+    %\addcontentsline{toc}{chapter}{\listfigurename}   % Thanks to D.Farfan
+		\pdfbookmark[0]{\listfigurename}{listafiguras}
+    \@starttoc{lof}%
+    \if@restonecol\twocolumn\fi
+    %\end{spacing}   %ita
+    }
 
 % Lista de Símbolos...
 \newcommand\listofsymbols{%
@@ -881,7 +879,7 @@
               {\MakeUppercase{\listofsymbolsname}}}%         Thanks to Reinaldo Fortes
 %    \addcontentsline{toc}{chapter}{\listofsymbolsname}%      Thanks to ffs  :-)
 		\pdfbookmark[0]{\listofsymbolsname}{listasimbolos}
-    \@starttoc{lof}%
+    \@starttoc{los}% If this command is enable list of symbols will appears with othe list (list of table or list of figures)
     \if@restonecol\twocolumn\fi
     %\end{spacing}   %ita
     }
@@ -981,7 +979,7 @@
 \newcommand{\@memberslist}{%
    \begin{tabular}{l l l l}
       \@ifundefined{metitlea}{}    {\metitlea\@         & \menamea\@       & \hspace{1cm} \merolea\@ & - \hspace{0.5cm} \meinsta\@ } \\
-                                 \itaadvisortitle   & \itaadvisorname  & \hspace{1cm} \itaadvisorwordbabelll & - \hspace{0.5cm} ITA       
+                                 \itaadvisortitle   & \itaadvisorname  & \hspace{1cm} \itaadvisorwordbabelll & - \hspace{0.5cm} ITA
 
       \@ifundefined{@coadvisor}{}  {\\ \@itacoadvisortitle   & \@itacoadvisorname  & \hspace{1cm} \itacoadvisorwordbabelll & - \hspace{0.5cm} \@itacoadvisorinst }
       \@ifundefined{metitleb}{}    {\\ \metitleb\@ & \menameb\@ & \hspace{1cm} \meroleb\@ & - \hspace{0.5cm} \meinstb\@ } \\
@@ -1156,7 +1154,7 @@
 }
 
 %==============================================================================
-% %%% Centralizar e ajustar os espacamentos dos captions das figuras e tabelas 
+% %%% Centralizar e ajustar os espacamentos dos captions das figuras e tabelas
 %==============================================================================
 \def\fnum@figure{\centering\MakeUppercase{\figurename}\nobreakspace\thefigure}
 \def\fnum@table{\centering\MakeUppercase{\tablename}\nobreakspace\thetable}
@@ -1167,7 +1165,7 @@
 %\renewcommand*\captionlabeldelim{\ --}
 
 %==============================================================================
-% %%% Indentar a segunda linha de captions longos das listas 
+% %%% Indentar a segunda linha de captions longos das listas
 %     de figuras e tabelas
 %==============================================================================
 \renewcommand*{\l@figure}{\@dottedtocline{1}{0cm}{1cm}}
@@ -1202,27 +1200,26 @@
 }
 
 
-%  Opcoes para: 
+%  Opcoes para:
 %  Nacional ou Internacional -- N/I
-%  Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
+%  Ostensivo, Reservado, Confidencial ou Secreto -- O/R/S
 \newcommand{\FRDitaOpcoes}[2]{
-      \gdef\N{\ } \gdef\I{\ }      
-      \gdef\O{\ } \gdef\R{\ } \gdef\C{\ } \gdef\S{\ }      
-      
+      \gdef\N{\ } \gdef\I{\ }
+      \gdef\O{\ } \gdef\R{\ } \gdef\C{\ } \gdef\S{\ }
+
       \ifthenelse{\equal{#1}{N}}{\gdef\N{\textbf{X}}}{}
       \ifthenelse{\equal{#1}{I}}{\gdef\I{\textbf{X}}}{}
-      
+
       \ifthenelse{\equal{#2}{O}}{\gdef\O{\textbf{X}}}{}
       \ifthenelse{\equal{#2}{R}}{\gdef\R{\textbf{X}}}{}
-      \ifthenelse{\equal{#2}{C}}{\gdef\C{\textbf{X}}}{}
       \ifthenelse{\equal{#2}{S}}{\gdef\S{\textbf{X}}}{}
 }
 
 % Folha de Registro de Documento
 \newcommand{\itaFRD}{
-     
+
      \if@openright\cleardoublepage\else\clearpage\fi
-     
+
      %Redefinicao das margens ...
 	\setlength{\hoffset}{-1in}        % remove padrão do LaTeX
 	\setlength{\voffset}{-1in}        % remove padrão do LaTeX
@@ -1250,44 +1247,44 @@
      \setlength{\baselineskip}{0.1\baselineskip}
      \setlength{\parskip}{.1em}
      \setlength{\extrarowheight}{2pt}
-          
+
      \lhead{}\rhead{}
 
      \thispagestyle{empty}
-     \pdfbookmark[0]{\itapagedocregbabel}{bla}    
-     
+     \pdfbookmark[0]{\itapagedocregbabel}{bla}
+
      \begin{tabularx}{\textwidth}{|X|X|X|X|}
 	\hline
 	\multicolumn{ 4}{|c|}{} \\
 	\multicolumn{ 4}{|c|}{\normalsize FOLHA DE REGISTRO DO DOCUMENTO} \\
 	\multicolumn{ 4}{|c|}{} \\
 	\hline
-	
-	$^{1.}$ \scriptsize CLASSIFICAÇÃO/TIPO & 
-	$^{2.}$ \scriptsize DATA               & 
-	$^{3.}$ \scriptsize DOCUMENTO Nº       & 
-	$^{4.}$ \scriptsize Nº DE PÁGINAS             \tabularnewline 
-	
+
+	$^{1.}$ \scriptsize CLASSIFICAÇÃO/TIPO &
+	$^{2.}$ \scriptsize DATA               &
+	$^{3.}$ \scriptsize DOCUMENTO Nº       &
+	$^{4.}$ \scriptsize Nº DE PÁGINAS             \tabularnewline
+
 	\centering{
 		\ifthenelse{\equal{\itaoptionlevel}{tg}}
 				{TC}
 				{\ifthenelse{\equal{\itaoptionlevel}{msc}}
-							{DP}
-							{TD}				
+							{DM}
+							{TD}
 				}
-	}  & 
-	\centering{\FRDitadatababel}   & 
-	\centering\scriptsize \FRDitadocnrobabel  &  
+	}  &
+	\centering{\FRDitadatababel}   &
+	\centering\scriptsize \FRDitadocnrobabel  &
 	\centering\NumPenultimaPagina                  \tabularnewline[\esp]
 	\hline
-	
+
 	\multicolumn{ 4}{|p{17cm}|}{$^{5.}$ \scriptsize TÍTULO E SUBTÍTULO:} \\
 	\multicolumn{ 4}{|l|}{\nh{\parbox[b]{.95\textwidth}{\@title}}} \\[\esp]
 	\hline
 	\multicolumn{ 4}{|l|}{$^{6.}$ \scriptsize AUTOR\ifthenelse{\equal{\authorgendermf}{masc}}{}{A}(ES):} \\
 	\multicolumn{ 4}{|l|}{\textbf{\@authorfirst\ \@authorlast}} \\[\esp]
 	\hline
-	\multicolumn{ 4}{|l|}{$^{7.}$ \scriptsize INSTITUIÇÃO(ÕES)/ÓRGÃO(S) 
+	\multicolumn{ 4}{|l|}{$^{7.}$ \scriptsize INSTITUIÇÃO(ÕES)/ÓRGÃO(S)
 	    INTERNO(S)/DIVISÃO(ÕES):} \\
 	\multicolumn{ 4}{|l|}{\FRDitaorgaointernobabel} \\[\esp]
 	\hline
@@ -1297,8 +1294,8 @@
 	\multicolumn{ 4}{|l|}{$^{9.}$ \scriptsize PALAVRAS-CHAVE RESULTANTES DE INDEXAÇÃO:} \\
 	\multicolumn{ 4}{|p{17cm}|}{\FRDitapalavrasresultbabel} \\[\esp]
 	\hline
-	\multicolumn{ 4}{|l|}{$^{10.}$ {\scriptsize APRESENTAÇÃO:}  \hfill 
-		(\N) \textbf{Nacional} \ \ \ 
+	\multicolumn{ 4}{|l|}{$^{10.}$ {\scriptsize APRESENTAÇÃO:}  \hfill
+		(\N) \textbf{Nacional} \ \ \
 		(\I) \textbf{Internacional} } \\
 	\multicolumn{ 4}{|p{17cm}|}{\FRDitapalavraapresentacaobabel} \\[\esp]
 	\hline
@@ -1306,13 +1303,12 @@
 	\multicolumn{ 4}{|c|}{\parbox[t][12cm]{.95\textwidth}{\FDRitaabstractcontent}} \\[\esp]
 	\hline
 	\multicolumn{ 4}{|l|}{$^{12.}$ \scriptsize GRAU DE SIGILO:} \\
-	\multicolumn{ 4}{| l|}{(\O) \textbf{OSTENSIVO} \hfill 
-			       (\R) \textbf{RESERVADO} \hfill 
-			       (\C) \textbf{CONFIDENCIAL} \hfill 
-			       (\S) \textbf{SECRETO}} \\[\esp]
+	\multicolumn{ 4}{| l|}{\hspace{2.0cm} (\O) \textbf{OSTENSIVO} \hspace{2.0cm}
+			       (\R) \textbf{RESERVADO} \hspace{2.0cm}
+			       (\S) \textbf{SECRETO} \hspace{2.0cm}} \\[\esp]
 	\hline
-     \end{tabularx}  
-     
+     \end{tabularx}
+
 }
 
 
@@ -1327,7 +1323,7 @@
       \if@mainmatter
           % se "anexo" nao foi definido, altera cabecalho do capitulo..
 	  % senao, mantem a palavra Anexo ou Apendice
-          \@ifundefined{anexo}      
+          \@ifundefined{anexo}
 		{\huge\bfseries \thechapter\space}
 		{\huge\bfseries \@chapapp\space \thechapter \space -}
       \fi
@@ -1336,8 +1332,8 @@
     \Huge \bfseries #1\par\nobreak
     \vskip 40\p@
   }}
-  
-  
+
+
 %==============================================================================
 %%% Obtendo o numero da penultima pagina, visto que a FRD nao é contada ...
 %%% Thanks to Dr. Miguel V. S. Frasson!! :-)
@@ -1355,5 +1351,3 @@
     \newcommand\NumPenultimaPagina{}%
     \edef\NumPenultimaPagina{\arabic{butlastpage}}%
   \fi}
-  
-  

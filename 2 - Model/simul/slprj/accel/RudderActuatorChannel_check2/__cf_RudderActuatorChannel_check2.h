@@ -1,3 +1,0 @@
-#ifndef CF_RudderActuatorChannel_check2_H__
-#define CF_RudderActuatorChannel_check2_H__
-#endif

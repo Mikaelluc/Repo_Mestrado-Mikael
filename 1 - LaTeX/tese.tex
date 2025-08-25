@@ -8,13 +8,23 @@
 %%%    	         Jorge A. B. Gripp         -  gripp [at] ita [dot] br
 %%%    	         Juliano Monte-Mor         -  jamontemor [at] yahoo [dot] com [dot] br
 %%%    	         Tarcisio A. B. Gripp      -  tarcisio.gripp [at] gmail [dot] com
-%%%    	         
+%%%
+%%%   Versão para overleaf:
+%%%   por        Alejandro A. Rios Cruz    - aarc.88@gmail.com
+%%%              Saulo Gómez               - sagomezs@unal.edu.co
+%%%              Ocimar Santos             - ocimar.acad@gmail.com
+%%%
+%%%   Template disponibilizado em:
+%%%              Overleaf: https://pt.overleaf.com/latex/templates/thesis-template-aeronautics-institute-of-technology-ita/yhfrqqydpygk
+%%%
+%%%   Contribuia você também!
+%%%              GitHub:   https://github.com/AlejandroRios/Template_Thesis_ITA
 %%%
 %%%  IMPORTANTE: O texto contido neste exemplo nao significa absolutamente nada.  :-)
 %%%              O intuito aqui eh demonstrar os comandos criados na classe e suas
 %%%              respectivas utilizacoes.
 %%%
-%%%  Tese.tex  2015-04-08
+%%%  Tese.tex  2016-08-25
 %%%  $HeadURL: http://www.apgita.org.br/apgita/teses-e-latex.php $
 %%%
 %%% ITALUS
@@ -23,41 +33,50 @@
 %%% Discussion list: italus {at} yahoogroups.com
 %%%
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-% Parametros da classe ITA para inserir em \documentclass[?]{?}
-%   tg       = Trabalho de Graduacao
-%   tgfem    = Para Engenheiras
-%   msc      = Dissertacao de Mestrado
-%   mscfem   = Para Mestras
-%   dsc      = Tese de Doutorado
-%   dscfem   = Para Doutoras
-%   quali    = Exame de Qualificacao
-%   qualifem = Exame de Qualificacao para Doutoras
-%   dv       = 'Draft Version'     --> imprime 'Versao Preliminar + data no rodape
-%   eng      = para teses em inglês
+% Para alterar o TIPO DE DOCUMENTO, preencher a linha abaixo \documentclass[?]{?}
+%   \documentclass[tg]{ita}			= Trabalho de Graduacao
+%   \documentclass[tgfem]{ita}	= Para Engenheiras
+%   								msc     		= Dissertacao de Mestrado
+%   								mscfem   		= Para Mestras
+%   								dsc      		= Tese de Doutorado
+%   								dscfem   		= Para Doutoras
+%   								quali    		= Exame de Qualificacao
+%   								qualifem 		= Exame de Qualificacao para Doutoras
+% Para 'Draft Version'/'Versao Preliminar' com data no rodape, adicionar 'dv':
+%   \documentclass[dsc, dv]{ita}
+% Para trabalhos em Inglês, adicionar 'eng':
+%   \documentclass[dsc, eng]{ita}
+%		\documentclass[dsc, eng, dv]{ita}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-%se fosse em inglês: \documentclass[dsc, eng]{ita}
-%para ``draft version'': \documentclass[dsc, dv]{ita} ou \documentclass[dsc, eng, dv]{ita}
-
-\documentclass[msc, eng]{ita}    % ITA.cls based on standard book.cls 
+\documentclass[msc, eng]{ita}    % ITA.cls based on standard book.cls
 % Quando alterar a classe, por exemplo de [msc] para [msc, eng]) rode mais uma vez o botão BUILD OUTPUT caso haja erro
 \usepackage{ae}
-\usepackage{graphics}
+\usepackage{graphicx}
 \usepackage{epsfig}
 \usepackage{amsmath}
-\usepackage{amssymb} 
+\usepackage{bm}
+\usepackage{amssymb}
 \usepackage{subfig}
 \usepackage{multirow}
 \usepackage{float}
-\usepackage{pdflscape}
-\usepackage{enumerate}
-\usepackage{graphicx}
-\usepackage{epstopdf}
-\usepackage{resizegather}
-\usepackage{rotating}
+\usepackage{amsthm}
+\usepackage{url}         % formats URL addresses properly
+\usepackage{appendix}    % allows appendix section to be included
+\usepackage{lscape}      % allows a page to be rendered in landscape mode
+\usepackage{multicol}    % allows text in multi columns
+\usepackage{cancel}      % needed to show canceled terms in equations
+\usepackage{lettrine}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{listings}
 
-
-
-%\setcounter{secnumdepth}{4}
+%HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+%\usepackage{subfigure}
+%\usepackage{subfigmat}
+%PACOTEFIGURAS_SE _ERRADO_ESXCLUIR_ACIMA
+\usepackage{booktabs}
+%PACOTETABELAS_SE _ERRADO_ESXCLUIR_ACIMA
+%HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 % Espaçamento padrão de todo o documento
@@ -72,146 +91,87 @@
 % Identificacoes (se o trabalho for em inglês, insira os dados em inglês)
 % Para entradas abreviadas de Professora (Profa.) em português escreva: Prof$^\textnormal{a}$.
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\course{Aeronautics and Mechanics Engineering} % Programa de PG ou Curso de Graduação
-\area{Aerospace Systems and Mechatronics} % Área de concentração na PG (Não utilizado no caso de TG)
-\dept{Mechanical Engineering} % Divisão Acadêmica no ITA
+\course{Aeronautical Engineering}  % Programa de PG ou Curso de Graduação
+\area{Aeronautical Systems} % Área de concentração na PG (Não utilizado no caso de TG)
 
 % Autor do trabalho: Nome Sobrenome
 \authorgender{masc}                     %sexo: masc ou fem
 \author{Lucas Ávila}{Silva}
-\itaauthoraddress{Av. Juscelino Kubitschek, 5460, Ap 134}{12.215-380}{São José dos Campos--SP}
+\itaauthoraddress{Av. Juscelino Kubitschek, 5460, apt. 134}{12.215-380}{São José dos Campos--SP}
 
 % Titulo da Tese/Dissertação
-\title{INSERT TITLE HERE}
-%\title{Dynamic Stiffness Optimization of a Flight Control Actuation System Using Control Techniques}
+\title{Image-Based Gimbal Control Using a Convolutional Neural Network}
 
 % Orientador
 \advisorgender{masc}                    % masc ou fem
-\advisor{Ph.D.}{Marcos Maximo}{ITA}
+\advisor{D.Sc.}{Marcos R. Omena de A. Máximo}{ITA}
 
 % Coorientador (Caso não haja coorientador, colocar ambas as variáveis \coadvisorgender e \coadvisor comentadas, com um % na frente)
 \coadvisorgender{masc}									% masc ou fem
 \coadvisor{M.Sc.}{Raphael das Neves Calvo}{EMBRAER}
 
 % Pró-reitor da Pós-graduação
-\bossgender{masc}												% masc ou fem
-\boss{Ph.D.}{Flavio Bussamra}
+%\bossgender{masc}												% masc ou fem
+%\boss{D.Sc.}{Flavio Bussamra}
+
+%Coordenador do curso no caso de TG
+%\bosscoursegender{masc}									% masc ou fem
+%\bosscourse{Prof.~Dr.}{John Walker}
 
 % Palavras-Chaves informadas pela Biblioteca -> utilizada na CIP
-\kwcip{Actuators}
-\kwcip{Optimization}
-\kwcip{Closed-loop system}
-\kwcip{Flight control}
-\kwcip{Aerodynamics}
-\kwcip{Aeronautical engineering}
+%\kwcip{Cupim}
+%\kwcip{Dilema}
+%\kwcip{Construção}
 
 % membros da banca examinadora
 
-\examiner{Ph.D.}{Luiz Carlos Sandoval Góes}{President}{ITA}
-\examiner{M.Sc.}{Carlos Augusto Constantino}{External member}{EMBRAER}
+\examiner{D.Sc.}{Carlos Forster}{Member}{ITA}
+\examiner{D.Sc.}{Alessandro Jacoud Peixoto}{Member}{UFRJ}
+%\examiner{Prof. Dr.}{Mickey Mouse}{}{DISNEY}
 
-
-% Data da defesa (mês em maiúsculo, se trabalho em inglês, e minúsculo se trabalho em português) 
-\date{23}{FEBRUARY}{2018}
+% Data da defesa (mês em maiúsculo, se trabalho em inglês, e minúsculo se trabalho em português)
+\date{05}{September}{2025}
 
 % Número CDU - (somente para TG)
-%\cdu{621.38}
+%\cdu{???.??}
 
 % Glossario
 \makeglossary
 \frontmatter
 
 \begin{document}
-% Folha de Rosto e Capa para o caso do TG
-\maketitle
-
-% Dedicatoria: Nao esqueca essa secao  ... :-)
-\begin{itadedication}
-Para Larissa, Anelisa, Maria Elisa e José Antônio.
-\end{itadedication}
-
-% Agradecimentos
-\begin{itathanks}
-\input{Capa/agradecimentos}
-\end{itathanks}
-
-% Epígrafe
-\thispagestyle{empty}
-\ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigrafe}\fi
-\begin{flushright}
-\begin{spacing}{1}
-\mbox{}\vfill
-{\sffamily\itshape
-``O homem há de voar.''\\}
---- \textsc{Alberto Santos Dumont}
-\end{spacing}
-\end{flushright}
-
-% Resumo
-\begin{abstract}
-\input{Capa/resumo}
-\end{abstract}
-
-% Abstract
-\begin{englishabstract}
-\input{Capa/abstract}
-\end{englishabstract}
-
-% Lista de figuras
-\listoffigures %opcional
-
-% Lista de tabelas
-\listoftables %opcional
-
-
-% Lista de abreviaturas
-\listofabbreviations
-\input{Capa/listaabreviaturas} %opcional
-
-% Lista de simbolos
-\listofsymbols
-\input{Capa/listasimbolos} %opcional
-
-% Sumario
-\tableofcontents
+\input{PreTextuais/main}
 
 \mainmatter
 % Os capitulos comecam aqui
 
-\chapter{Introduction} \label{Introduction}
-\input{Capitulos/capitulo1}
+\chapter{Introduction}
+\input{Cap1/cap1}
 
-\chapter{Theory Background} \label{Theory Background}
-\input{Capitulos/Capitulo2}
+\chapter{Theoretical Background}
+\input{Cap2/cap2}
 
-\chapter{Actuation System Model} \label{Actuation System Model}
-\input{Capitulos/Capitulo3}
+\chapter{Object Tracking System}
+\input{Cap3/cap3}
 
-\chapter{Dynamic Stiffness Optimization} \label{Dynamic Stiffness Optimization}
-\input{Capitulos/Capitulo4}
+\chapter{Results and Discussions}
+\input{Cap4/cap4}
 
-\chapter{Optimization Results} \label{Optimization Results}
-\input{Capitulos/Capitulo5}
-
-\chapter{Conclusion} \label{Conclusion}
-\input{Capitulos/Conclusion}
-
+\chapter{Conclusions and Future Works}
+\input{Cap5/cap5}
 % REFERENCIAS BIBLIOGRAFICAS
 \renewcommand\bibname{\itareferencesnamebabel} %renomear título do capítulo referências
-\bibliography{Referencias/references}
+\bibliography{Referencias/referencias}
 
 % Apendices
-\appendix
-\chapter{Frequency Response Test} %opcional
-\input{Capitulos/apendiceA} \label{FRAppendix}
-
-\chapter{Frequency Response of Non-Linear Systems} %opcional
-\input{Capitulos/apendiceB} \label{NLFRAppendix}
+%\appendix
+%\chapter{Appendix} %opcional
+%\input{ApeA/apendiceA}
 
 % Anexos
 %\annex
-%\chapter{Aeroelastic and Safety Requirements} %opcional
-%\input{Anexos/anexoA}
+%\chapter{Annex} %opcional
+%\input{AneA/anexoA}
 
 % Glossario
 %\itaglossary
@@ -219,21 +179,20 @@ Para Larissa, Anelisa, Maria Elisa e José Antônio.
 
 % Folha de Registro do Documento
 % Valores dos campos do formulario
-\FRDitadata{20 de março de 2018}
-\FRDitadocnro{DCTA/ITA/DP-012/2018} %(o número de registro você solicita a biblioteca)
+\FRDitadata{03 de Setembro de 2024}
+\FRDitadocnro{} %(o número de registro você solicita a biblioteca)
 \FRDitaorgaointerno{Instituto Tecnológico de Aeronáutica -- ITA}
 %Exemplo no caso de pós-graduação: Instituto Tecnol{\'o}gico de Aeron{\'a}utica -- ITA
-\FRDitapalavrasautor{Atuador; Rigidez Dinâmica; Otimização}
-\FRDitapalavrasresult{Atuadores; Otimização; Sistema de circuito fechado; Controle de voo; Aerodinâmica; Engenharia aeronáutica.}
+\FRDitapalavrasautor{Object Detection, Tracking, YOLO, Gimbal, Image}
+\FRDitapalavrasresult{}
 %Exemplo no caso de graduação (TG):
 %\FRDitapalavraapresentacao{Trabalho de Graduação, ITA, São José dos Campos, 2015. \NumPenultimaPagina\ páginas.}
 %Exemplo no caso de pós-graduação (msc, dsc):
-\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Mestrado Profissional em Engenharia Aeronáutica. Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica. Área de Sistemas Aeroespaciais e Mecatrônica. Orientador: Prof. Dr. Alberto Adade Filho; coorientador: MSc. Raphael das Neves Calvo. Defesa em 06/03/2018. Publicada em 2018.}
-\FRDitaresumo{\input{Capa/abstract}}
+\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Mestrado. Programa de Pós-Graduação em Engenharia Aeronáutica}
+\FRDitaresumo{\input{PreTextuais/resumo}}
 %  Primeiro Parametro: Nacional ou Internacional -- N/I
 %  Segundo parametro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
-\FRDitaOpcoes{I}{O}
-
+\FRDitaOpcoes{N}{O}
 % Cria o formulario
 \itaFRD
 
