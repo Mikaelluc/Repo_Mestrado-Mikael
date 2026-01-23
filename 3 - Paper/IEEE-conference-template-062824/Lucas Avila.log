@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.24)  26 AUG 2025 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.24)  23 JAN 2026 13:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -230,85 +230,266 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count306
+\float@exts=\toks24
+\float@box=\box57
+\@float@everytoks=\toks25
+\@floatcapt=\box58
+) (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip57
+\multirow@cntb=\count307
+\multirow@dima=\skip58
+\bigstrutjot=\dimen183
+) (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen184
+\lightrulewidth=\dimen185
+\cmidrulewidth=\dimen186
+\belowrulesep=\dimen187
+\belowbottomsep=\dimen188
+\aboverulesep=\dimen189
+\abovetopsep=\dimen190
+\cmidrulesep=\dimen191
+\cmidrulekern=\dimen192
+\defaultaddspace=\dimen193
+\@cmidla=\count308
+\@cmidlb=\count309
+\@aboverulesep=\dimen194
+\@belowrulesep=\dimen195
+\@thisruleclass=\count310
+\@lastruleclass=\count311
+\@thisrulewidth=\dimen196
+) (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen197
+\captionmargin=\dimen198
+\caption@leftmargin=\dimen199
+\caption@rightmargin=\dimen256
+\caption@width=\dimen257
+\caption@indent=\dimen258
+\caption@parindent=\dimen259
+\caption@hangindent=\dimen260
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\normalfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi \fi  on input line 1175.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count312
+\c@continuedfloat=\count313
+Package caption Info: float package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count314
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count315
 ) (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
+\l__color_backend_stack_int=\count316
 ) (Lucas Avila.aux)
 \openout1 = `"Lucas Avila.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 -- Lines per column: 56 (exact).
 (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
-\scratchdimen=\dimen183
-\scratchbox=\box57
-\nofMPsegments=\count308
-\nofMParguments=\count309
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count310
-\MPscratchDim=\dimen184
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count317
+\scratchdimen=\dimen261
+\scratchbox=\box59
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen262
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks27
 ) (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
- (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+(C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
  (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 60.
-
-
+Package epstopdf Info: Source file: <images/arquitetura-eps-FINAL.eps>
+(epstopdf)                    date: 2025-10-06 09:44:59
+(epstopdf)                    size: 67703 bytes
+(epstopdf)             Output file: <images/arquitetura-eps-FINAL-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-11-18 09:59:03
+(epstopdf)                    size: 22769 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/arquitetura-eps-FINAL-eps-converted-to.pdf images/arquitetura-eps-FINAL.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+<images/arquitetura-eps-FINAL-eps-converted-to.pdf, id=1, 618.31pt x 206.7725pt>
+File: images/arquitetura-eps-FINAL-eps-converted-to.pdf Graphic file (type pdf)
+<use images/arquitetura-eps-FINAL-eps-converted-to.pdf>
+Package pdftex.def Info: images/arquitetura-eps-FINAL-eps-converted-to.pdf  used on input line 99.
+(pdftex.def)             Requested size: 252.0pt x 84.27245pt.
 
 
 [1{C:/Users/lucas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 128.
+
+
+
+[2 <./images/arquitetura-eps-FINAL-eps-converted-to.pdf>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 179.
  (C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
+Package epstopdf Info: Source file: <images/Car3.eps>
+(epstopdf)                    date: 2025-08-23 18:25:02
+(epstopdf)                    size: 894498 bytes
+(epstopdf)             Output file: <images/Car3-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-11-28 15:58:59
+(epstopdf)                    size: 114782 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/Car3-eps-converted-to.pdf images/Car3.eps>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+<images/Car3-eps-converted-to.pdf, id=34, 462.72874pt x 258.9675pt>
+File: images/Car3-eps-converted-to.pdf Graphic file (type pdf)
+<use images/Car3-eps-converted-to.pdf>
+Package pdftex.def Info: images/Car3-eps-converted-to.pdf  used on input line 205.
+(pdftex.def)             Requested size: 103.19843pt x 57.75542pt.
+Package epstopdf Info: Source file: <images/CAR1.eps>
+(epstopdf)                    date: 2025-08-23 18:25:39
+(epstopdf)                    size: 913748 bytes
+(epstopdf)             Output file: <images/CAR1-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-11-28 15:59:00
+(epstopdf)                    size: 120142 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/CAR1-eps-converted-to.pdf images/CAR1.eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+<images/CAR1-eps-converted-to.pdf, id=35, 461.725pt x 260.975pt>
+File: images/CAR1-eps-converted-to.pdf Graphic file (type pdf)
+<use images/CAR1-eps-converted-to.pdf>
+Package pdftex.def Info: images/CAR1-eps-converted-to.pdf  used on input line 209.
+(pdftex.def)             Requested size: 103.19843pt x 58.32658pt.
+Package epstopdf Info: Source file: <images/car2.eps>
+(epstopdf)                    date: 2025-08-23 18:24:33
+(epstopdf)                    size: 839560 bytes
+(epstopdf)             Output file: <images/car2-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-11-28 15:59:01
+(epstopdf)                    size: 96611 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/car2-eps-converted-to.pdf images/car2.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+<images/car2-eps-converted-to.pdf, id=36, 450.68375pt x 303.1325pt>
+File: images/car2-eps-converted-to.pdf Graphic file (type pdf)
+<use images/car2-eps-converted-to.pdf>
+Package pdftex.def Info: images/car2-eps-converted-to.pdf  used on input line 211.
+(pdftex.def)             Requested size: 126.0pt x 84.74701pt.
 
-<fig1.png, id=12, 249.3315pt x 189.22694pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 233.
-(pdftex.def)             Requested size: 249.33087pt x 189.22647pt.
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 244.
-(C:\Users\lucas\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
-File: omsptm.fd 
+Underfull \hbox (badness 2790) in paragraph at lines 217--218
+[]\OT1/ptm/m/n/10 The YOLOv8 al-go-rithm was trained us-ing the Vis-
+ []
+
+
+
+Package epstopdf Info: Source file: <images/mAP50.eps>
+(epstopdf)                    date: 2025-11-27 13:12:50
+(epstopdf)                    size: 13683 bytes
+(epstopdf)             Output file: <images/mAP50-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-11-27 13:13:09
+(epstopdf)                    size: 8946 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/mAP50-eps-converted-to.pdf images/mAP50.eps>
+(epstopdf)             \includegraphics on input line 225.
+Package epstopdf Info: Output file is already uptodate.
+<images/mAP50-eps-converted-to.pdf, id=37, 216.81pt x 216.81pt>
+File: images/mAP50-eps-converted-to.pdf Graphic file (type pdf)
+<use images/mAP50-eps-converted-to.pdf>
+Package pdftex.def Info: images/mAP50-eps-converted-to.pdf  used on input line 225.
+(pdftex.def)             Requested size: 103.19843pt x 103.19754pt.
+Package epstopdf Info: Source file: <images/mAP50-95.eps>
+(epstopdf)                    date: 2025-11-27 13:15:31
+(epstopdf)                    size: 14882 bytes
+(epstopdf)             Output file: <images/mAP50-95-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-11-27 13:15:40
+(epstopdf)                    size: 9367 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/mAP50-95-eps-converted-to.pdf images/mAP50-95.eps>
+(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Output file is already uptodate.
+<images/mAP50-95-eps-converted-to.pdf, id=38, 216.81pt x 216.81pt>
+File: images/mAP50-95-eps-converted-to.pdf Graphic file (type pdf)
+<use images/mAP50-95-eps-converted-to.pdf>
+Package pdftex.def Info: images/mAP50-95-eps-converted-to.pdf  used on input line 229.
+(pdftex.def)             Requested size: 103.19843pt x 103.19754pt.
+Package epstopdf Info: Source file: <images/loss.eps>
+(epstopdf)                    date: 2025-11-27 13:25:41
+(epstopdf)                    size: 23522 bytes
+(epstopdf)             Output file: <images/loss-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-11-27 13:25:44
+(epstopdf)                    size: 13505 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images/loss-eps-converted-to.pdf images/loss.eps>
+(epstopdf)             \includegraphics on input line 237.
+Package epstopdf Info: Output file is already uptodate.
+<images/loss-eps-converted-to.pdf, id=39, 289.08pt x 289.08pt>
+File: images/loss-eps-converted-to.pdf Graphic file (type pdf)
+<use images/loss-eps-converted-to.pdf>
+Package pdftex.def Info: images/loss-eps-converted-to.pdf  used on input line 237.
+(pdftex.def)             Requested size: 126.0pt x 126.0002pt.
+
+
+[3 <./images/Car3-eps-converted-to.pdf> <./images/CAR1-eps-converted-to.pdf> <./images/car2-eps-converted-to.pdf> <./images/mAP50-eps-converted-to.pdf> <./images/mAP50-95-eps-converted-to.pdf> <./images/loss-eps-converted-to.pdf>]
+<images/system_behavior.png, id=123, 1155.1155pt x 631.158pt>
+File: images/system_behavior.png Graphic file (type png)
+<use images/system_behavior.png>
+Package pdftex.def Info: images/system_behavior.png  used on input line 295.
+(pdftex.def)             Requested size: 226.79846pt x 123.918pt.
+
+
+<images/Torque.png, id=125, 1155.1155pt x 629.9535pt>
+File: images/Torque.png Graphic file (type png)
+<use images/Torque.png>
+Package pdftex.def Info: images/Torque.png  used on input line 308.
+(pdftex.def)             Requested size: 201.60077pt x 109.93591pt.
+
+
+[4 <./images/system_behavior.png> <./images/Torque.png>] (Lucas Avila.bbl
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 135--139
+\OT1/ptm/m/n/8 ac-cessed on June 10, 2024. [On-line]. Avail-able:
+ []
+
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 244.
-
-
-[2]
-
-(Lucas Avila.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -322,24 +503,24 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[3 <./fig1.png (PNG copy)>] (Lucas Avila.aux)
+[5] (Lucas Avila.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4322 strings out of 468219
- 68309 string characters out of 5432869
- 485132 words of memory out of 5000000
- 32795 multiletter control sequences out of 15000+600000
- 679066 words of font info for 142 fonts, out of 8000000 for 9000
+ 6007 strings out of 468219
+ 101833 string characters out of 5432869
+ 517017 words of memory out of 5000000
+ 34467 multiletter control sequences out of 15000+600000
+ 668392 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,659b,306s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Lucas Avila.pdf" (3 pages, 154923 bytes).
+ 67i,12n,77p,1159b,404s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Lucas Avila.pdf" (5 pages, 874854 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 216 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
