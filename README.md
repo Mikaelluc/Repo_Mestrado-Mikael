@@ -1,35 +1,18 @@
-# Master Thesis Work of Lucas Avila Silva
+# Master Thesis Work of PUT YOUR FULL NAME HERE
 ======
 
 ## Advisors
-Marcos Maximo
-
-Raphael das Neves Calvo
+PUT THE ADVISOR NAME FROM ITA HERE
+PUT THE ADVISOR NAME FROM INDUSTRY HERE
 
 ## Summary
-This repository presents the implementation of a real-time object tracking system for a Two-Degrees-of-Freedom (2-DOF) gimbal, developed as part of my Master's thesis. The project integrates advanced computer vision with robust control engineering to maintain a target object precisely centered within a camera's field of view.
 
-Key Features & Technologies:
-Object Detection: Utilizes YOLOv8 for state-of-the-art, real-time object localization in image frames.
-
-State Estimation: Employs a Kalman Filter to effectively smooth noisy YOLOv8 measurements, estimate the object's true position and velocity, and mitigate data inconsistencies.
-
-Gimbal Control: Implements a Proportional-Integral-Derivative (PID) controller to actuate the gimbal, ensuring stable and accurate camera orientation.
-
-System Modeling: Features a detailed Simulink model of the 2-DOF gimbal, incorporating critical nonlinearities (e.g., friction) and communication delays (modeled via Padé approximation) for realistic simulation.
-
-Real-time Performance: Validated in a real-time simulation environment, demonstrating the system's ability to handle latency and dynamic tracking challenges.
-
-Objective:
-The primary goal is to develop a comprehensive and robust control solution for image-based object tracking, crucial for applications in surveillance, autonomous systems, and aeronautical operations where precise target centralization is paramount.
+DESCRIBE THE SCOPE OF YOUR WORK HERE BASED ON WHAT WAS AGREED BETWEEN YOU, YOUR ADVISOR and YOUR CO-ADVISOR
 
 ## Milestones
-September, 03 of 2024 - Qualification
-
-August, 25 of 2025 - Dissertation Delivered to Jury Members
-
-September, 05 of 2025 - Defense
-
+Month, Day of Year - Qualification
+Month, Day of Year - Dissertation Delivered to Jury Members
+Month, Day of Year - Defense
 
 ## ABSTRACT
 
