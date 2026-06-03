@@ -1,4 +1,4 @@
-# Master Thesis Work of PUT YOUR FULL NAME HERE
+# Master Thesis Work of MIKAEL LUCAS DE BRITO SOUSA
 ======
 
 ## Advisors
