@@ -1,2 +1,8 @@
-#Videos MPEG-4
+# Videos MPEG-4
 *.mp4
+
+# Windows
+*.ini
+
+# Matlab compile files
+**/parameters/slprj/*
