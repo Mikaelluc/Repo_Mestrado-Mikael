@@ -3,7 +3,7 @@
 
 ## Advisors
 * Prof. Dr Luiz Augusto Bizarro Mirisola
-* Eng. Msc. Raphael das Neves Calvo
+* M.Eng. Raphael das Neves Calvo
 
 ## Summary
 
