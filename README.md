@@ -7,8 +7,9 @@
 
 ## Summary
 
-Esse trabalho visa implementar melhoras no equacionamento do sistema 2DOF e 3DOF do sistema de gimbal acomplado com uma câmera planar, trazer fundamento matemático visando justificar o controle aplicado utilizando técnica PID, aplicar técnicas de controle robusto visando melhorar o controle PID simples para garantir o rastreio correto dentro de uma margem aceitável (a ser definida) de movimento do alvo/objeto, implementar um algooritmo de identificação dos alvos visando equilibrio das classes de treinamento por dados ou técnicas de augmentation data para garantir uma acurácia confiável no rastreio de 2 ou mais alvos dentro de uma sistema e prover um posicionamento planar confiável para aplicação de técnicas de geometria projetiva para tratamento da imagem e melhorar o rastreio de alvos/objetos semelhante a tecnicas usadas para manufatura industrial robótica de precisão. 
-O trabalho será uma evolução do trabalho original desenvolvido por Lucas Ávila de tema "IMAGE-BASED GIMBAL CONTROL FOR OBJECT TRACKING".
+This work aims to implement improvements in the 2DOF system equations of the gimbal system coupled with a planar camera, to provide a mathematical foundation to justify the control applied using PID techniques, to apply robust control techniques to improve simple PID control to ensure correct tracking within an acceptable margin (to be defined) of target/object movement, to implement a target identification algorithm to balance training classes using a large image dataset for training or augmentation data techniques applied for image context to ensure reliable accuracy in tracking of 2 or more targets within a system, and to provide reliable planar positioning for the application of projective geometry techniques for image processing and to improve target/object tracking similar to techniques used for precision robotic industrial manufacturing.
+
+This work will be an evolution of the original work developed by Lucas Ávila on the topic "IMAGE-BASED GIMBAL CONTROL FOR OBJECT TRACKING".
 
 ## Milestones
 
