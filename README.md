@@ -1,7 +1,9 @@
 # Master Thesis Work of MIKAEL LUCAS DE BRITO SOUSA
+
 ======
 
 ## Advisors
+
 * Prof. Dr Luiz Augusto Bizarro Mirisola
 * M.Eng. Raphael das Neves Calvo
 
@@ -13,9 +15,13 @@ This work will be an evolution of the original work developed by Lucas Ávila on
 
 ## Milestones
 
-* August, 17, 2026 - Dissertation Delivered to Jury Members
-* September, 1, 2026 - Qualification
-* August, 30, 2027 - Defense
+* August, 10, 2026 - Planned date for sending the Qualification Text to the committee members. (3 weeks b.p.)
+* September, 1, 2026 - Planned date for Qualification Presention
+* September, 16, 2026 - Limit date for Qualification Presentation
+* July, 5, 2027 - Planned date for sending the Defense Text to the comittee members
+* August, 2, 2027 - Planned date for Defense Presentation
+* August, 16, 2027 - Limit date for Defense Presentation
+* September, 16, 2027 - Limit date for Conclusion (corrections and publication by ITA's internal library)
 
 ## ABSTRACT
 
