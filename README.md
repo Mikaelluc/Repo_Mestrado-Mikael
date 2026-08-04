@@ -1,5 +1,7 @@
 # Master Thesis Work of MIKAEL LUCAS DE BRITO SOUSA
 
+## TITLE: IMAGE-BASED GIMBAL ROBUST CONTROL FOR MULTI OBJECT TRACKING
+
 ======
 
 ## Advisors
@@ -15,13 +17,15 @@ This work will be an evolution of the original work developed by Lucas Ávila on
 
 ## Milestones
 
-* August, 10, 2026 - Planned date for sending the Qualification Text to the committee members. (3 weeks b.p.)
+* August, 10, 2026 - Planned date for sending the final version* of Qualification Text to the committee members. (3 weeks b.p.)
 * September, 1, 2026 - Planned date for Qualification Presentation
 * September, 16, 2026 - Limit date for Qualification Presentation
 * July, 5, 2027 - Planned date for sending the Defense Text to the comittee members
 * August, 2, 2027 - Planned date for Defense Presentation
 * August, 16, 2027 - Limit date for Defense Presentation
 * September, 16, 2027 - Limit date for Conclusion (corrections and publication by ITA's internal library)
+
+*Plan to send first drafts of Qualification Text to my advisors between July 25th and August 3rd to evaluation.
 
 ## ABSTRACT
 
@@ -37,7 +41,6 @@ To address a portion of these limitations and advance the viable state-of-the-ar
    Evaluation and enhancement of tracking techniques (including multiple targets) through dataset balancing and the exploration of initial identification algorithms, aiming for greater system robustness against scenario variabilities and partial occlusions.
 3. Software Simulation with Real Data:
    Implementation of a SIL test integrating the improved control with the tracking algorithm, utilizing real video inputs to validate the system's efficacy outside of purely simulated scenarios.
-
 
 ---
 
