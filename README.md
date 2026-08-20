@@ -6,8 +6,9 @@
 
 ## Advisors
 
-* Prof. Dr Luiz Augusto Bizarro Mirisola
-* M.Eng. Raphael das Neves Calvo
+* Academical Advisor: Prof. Dr. Flávio Luiz Cardoso Ribeiro
+* Industrial Advisor: M.Eng. Raphael das Neves Calvo
+* Extra Advisor: Dr. Luiz Gustavo Bizarro Mirisola (Committee Guest)
 
 ## Summary
 
